@@ -1,8 +1,14 @@
 # LeanOpenQNX
 
-A **lean, modern fork** of the vocho/openqnx repository (on GitHub since 2009) 
+A **lean, modern fork** of the vocho/openqnx repository (on GitHub since Aug. 2009) 
 optimized for **Raspberry Pi** and **x86/64** platforms using the
 BUSY build system.
+
+The original vocho/openqnx repository is the result of the MONARTIS (MONitoring Application for Real-Time Industrial Systems)
+project conducted in 2009 at [HEIG-VD](https://heig-vd.ch/), Switzerland. The \_NTO\_VERSION define in
+<sys/neutrino.h> indicates that it was based on QNX version 6.4.1.
+
+NOTE that this project is in an early stage and work in progress for some time to come.
 
 ## What Makes It "Lean"?
 
@@ -57,7 +63,7 @@ for detailed terms.
 
 ## Credits
 
-- QNX Software Systems for making the source code available (2007)
-- The OpenQNX community for maintaining repositories since 2009
+- QNX Software Systems for making the source code available (2009)
+- The HEIG-VD MONARTIS project for maintaining the vocho/openqnx repository since 2009
 
 
