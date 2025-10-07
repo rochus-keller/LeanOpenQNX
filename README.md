@@ -12,29 +12,31 @@ NOTE that this project is in an early stage and work in progress for some time t
 
 ## What Makes It "Lean"?
 
-- 🎯 **Focused scope**: Raspberry Pi (ARM) and x86/64 only
-- 🔨 **Modern build system**: BUSY based cross-compilation
+- 🎯 **Focused scope**: Raspberry Pi (ARM) and PC (x86) only
+- 🔨 **Lean build system**: BUSY & TCC based cross-compilation
 - 📚 **Educational focus**: Streamlined for learning microkernel and RTOS concepts
 - ⚡ **Faster builds**: reduction in compile time
-- 🧹 **Removed complexity**: Stripped unnecessary drivers and platforms, reorganized source tree
+- 🧹 **Removed complexity**: Stripped unnecessary drivers and platforms, simplified source tree
 
 ## Relationship to OpenQNX
 
 This project is a derivative work of QNX® Neutrino RTOS source code 
 made available by QSS in 2009 under the openQNX initiative. 
 
+No QNX file is modified by this project, no QNX code is copied.
+
 **Legal status**: Educational and non-commercial use only, consistent 
 with the original program's stated objectives.
 
 **Original announcement**: https://www.openqnx.com/node/471
 
-## Key Modifications
+## Planned Work
 
-- ✅ Modern build system replacing legacy QNX Momentics workflow
-- ✅ Cross-compilation support for ARM (Raspberry Pi 3/4/5)
-- ✅ Cross-compilation support for x86/64
-- ✅ Removed: PowerPC, MIPS, SH-4, ARM variants not used in Raspi
-- ✅ Documentation: Modern guides for contemporary developers
+- New build system based on TCC and BUSY replacing legacy QNX Momentics workflow
+- Cross-compilation support for ARM (Raspberry Pi 3/4/5)
+- Cross-compilation support for x86/64
+- Removed: PowerPC, MIPS, SH-4, ARM variants, and other QNX files not required
+- Added: new files are added to the pre-existing repository and clearly identified
 
 ## Building
 
@@ -46,14 +48,14 @@ TBD, see LeanQt
 This fork aims to make QNX Neutrino's excellent microkernel architecture 
 accessible to:
 - Computer science students learning RTOS design
-- Hobbyists experimenting with Raspberry Pi
+- Hobbyists experimenting with Raspberry Pi and PC
 - Developers wanting to understand microkernel concepts
 - Anyone interested in real-time operating systems
 
 ## License & Copyright
 
 **Original QNX Code**: Copyright © QNX Software Systems Limited  
-**Build System & Modifications**: Copyright © 2025 Rochus Keller
+**Build System & Additions**: Copyright © 2025 Rochus Keller
 
 QNX® is a registered trademark of BlackBerry Limited.  
 This project is not affiliated with or endorsed by BlackBerry/QNX.
