@@ -1,0 +1,185 @@
+Scanning directory: /home/me/Downloads/openqnx-master
+Looking for module.tmpl files...
+
+Processed 193 file(s).
+
+======================================================================
+XML ANALYSIS RESULTS
+======================================================================
+
+ALL XML ELEMENTS DISCOVERED:
+----------------------------------------------------------------------
+GroupOwner                              : 192 instances
+RuntimeComponent                        : 189 instances
+abstract                                : 5 instances
+availability                            : 232 instances
+byteOrder                               : 3 instances
+classification                          : 193 instances
+component                               : 306 instances
+contents                                : 190 instances
+cpu                                     : 15 instances
+description                             : 5 instances
+host                                    : 3 instances
+kind                                    : 97 instances
+link                                    : 9 instances
+location                                : 668 instances
+module                                  : 193 instances
+os                                      : 13 instances
+package                                 : 80 instances
+part                                    : 169 instances
+requires                                : 105 instances
+short                                   : 5 instances
+source                                  : 222 instances
+supports                                : 193 instances
+type                                    : 193 instances
+
+ALL ATTRIBUTES DISCOVERED:
+----------------------------------------------------------------------
+available                               : 222 instances
+basedir                                 : 439 instances
+build                                   : 169 instances
+byteorder                               : 140 instances
+dst                                     : 9 instances
+generated                               : 299 instances
+id                                      : 303 instances
+isHost                                  : 43 instances
+isInternal                              : 10 instances
+isa                                     : 184 instances
+location                                : 169 instances
+name                                    : 213 instances
+os                                      : 63 instances
+ref                                     : 219 instances
+relative                                : 16 instances
+runtime                                 : 469 instances
+src                                     : 9 instances
+strip                                   : 83 instances
+subdirs                                 : 50 instances
+supported                               : 8 instances
+tisa                                    : 10 instances
+tos                                     : 4 instances
+type                                    : 294 instances
+
+HIERARCHICAL STRUCTURE:
+----------------------------------------------------------------------
+
+Element: availability
+  Contains child elements:
+    - cpu                                : 3 instances
+    - host                               : 3 instances
+    - os                                 : 13 instances
+  Has attributes:
+    @ ref                                : 219 instances
+    @ supported                          : 8 instances
+
+Element: component
+  Contains child elements:
+    - kind                               : 93 instances
+    - link                               : 8 instances
+    - location                           : 432 instances
+    - source                             : 29 instances
+  Has attributes:
+    @ basedir                            : 7 instances
+    @ generated                          : 299 instances
+    @ id                                 : 303 instances
+
+Element: contents
+  Contains child elements:
+    - component                          : 200 instances
+    - package                            : 80 instances
+
+Element: cpu
+  Contains child elements:
+    - byteOrder                          : 3 instances
+  Has attributes:
+    @ isa                                : 15 instances
+
+Element: description
+  Contains child elements:
+    - abstract                           : 5 instances
+    - short                              : 5 instances
+
+Element: module
+  Contains child elements:
+    - GroupOwner                         : 192 instances
+    - RuntimeComponent                   : 189 instances
+    - classification                     : 193 instances
+    - contents                           : 190 instances
+    - description                        : 5 instances
+    - kind                               : 4 instances
+    - requires                           : 105 instances
+    - source                             : 193 instances
+    - supports                           : 193 instances
+    - type                               : 193 instances
+  Has attributes:
+    @ name                               : 193 instances
+
+Element: os
+  Contains child elements:
+    - cpu                                : 12 instances
+  Has attributes:
+    @ name                               : 13 instances
+
+Element: package
+  Contains child elements:
+    - component                          : 106 instances
+  Has attributes:
+    @ isHost                             : 43 instances
+    @ isInternal                         : 10 instances
+    @ name                               : 7 instances
+
+Element: requires
+  Contains child elements:
+    - part                               : 169 instances
+
+Element: source
+  Contains child elements:
+    - link                               : 1 instances
+    - location                           : 236 instances
+  Has attributes:
+    @ available                          : 222 instances
+
+Element: supports
+  Contains child elements:
+    - availability                       : 232 instances
+
+Element: host
+  Has attributes:
+    @ os                                 : 3 instances
+
+Element: kind
+  Has attributes:
+    @ type                               : 97 instances
+
+Element: link
+  Has attributes:
+    @ byteorder                          : 5 instances
+    @ dst                                : 9 instances
+    @ isa                                : 7 instances
+    @ os                                 : 3 instances
+    @ runtime                            : 6 instances
+    @ src                                : 9 instances
+    @ tos                                : 4 instances
+
+Element: location
+  Has attributes:
+    @ basedir                            : 432 instances
+    @ byteorder                          : 135 instances
+    @ isa                                : 162 instances
+    @ os                                 : 57 instances
+    @ relative                           : 16 instances
+    @ runtime                            : 463 instances
+    @ strip                              : 83 instances
+    @ subdirs                            : 50 instances
+    @ tisa                               : 10 instances
+    @ type                               : 197 instances
+
+Element: part
+  Has attributes:
+    @ build                              : 169 instances
+    @ location                           : 169 instances
+
+======================================================================
+SUMMARY:
+  Total unique elements: 23
+  Total unique attributes: 23
+======================================================================
