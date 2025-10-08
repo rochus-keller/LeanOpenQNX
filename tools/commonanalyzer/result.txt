@@ -1,0 +1,1935 @@
+Scanning: /home/me/Downloads/openqnx-master
+Looking for common.mk files...
+
+Processed 198 file(s).
+
+====================================================================================================
+COMMON.MK BUILD METADATA ANALYSIS
+====================================================================================================
+
+Total projects: 198
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/apps/hello/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  CCFLAGS:     -D_FILE_OFFSET_BITS=64 -D_IOFUNC_OFFSET_BITS=64
+  EXTRA_CCDEPS: $(wildcard $(PROJECT_ROOT)/*.h) $(PROJECT_ROOT)/common.mk
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/apps/montt_rtapp/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/other_rt.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/apps/mt_metadata/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/mt_metadata.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/apps/mt_test/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/mt_test.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/asyncmsg/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        asyncmsg
+  INSTALLDIR:  usr/lib
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/backtrace/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/lib
+  CCFLAGS:     $(if $(filter light,$(VARIANT_LIST)),-D_BT_LIGHT)
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/bessel/common.mk
+----------------------------------------------------------------------------------------------------
+  CCFLAGS:     -O2
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/c/common.mk
+----------------------------------------------------------------------------------------------------
+  CCFLAGS:     $(CCF_$(COMPILER_TYPE)_$(COMPILER_DRIVER)) $(CCFLAGS_$(SECTION)) $(CCFLAGS_$(COMPILER_TYPE)_$(SECTION)) $(CCFLAGS_$(COMPILER_TYPE)_$(CPU)) $(CCFLAGS_$(CPU)) $(CCFLAGS_$(basename $@)) $(CCFLAGS_$(basename $@)_$(CPU)) $(CCFLAGS_$(basename $@)_$(COMPILER_TYPE)_$(COMPILER_DRIVER)_$(CPU)) $(CCFLAGS_$(SECTION)_$(BUILDENV)) -D_LIBC_SO_VERSION=$(LIBC_SO_VERSION) -D_LIBCPP_SO_VERSION=$(LIBCPP_SO_VERSION) -D_LIBM_SO_VERSION=$(LIBM_SO_VERSION)
+  ASFLAGS     : $(ASFLAGS_$(SECTION)) $(ASFLAGS_$(COMPILER_TYPE)_$(CPU)) $(ASFLAGS_$(CPU)) $(ASFLAGS_$(SECTION)_$(BUILDENV)) $(ASFLAGS_$(basename $@)) $(ASFLAGS_$(basename $@)_$(CPU))
+  ASFLAGS_crt1: -static
+  ASFLAGS_mcrt1: -static
+  ASFLAGS_startup: -shared
+  ASFLAGS_startup_ion: -DNO_INIT_ARRAY
+  ASFLAGS_startup_iox: -DNO_INIT_ARRAY -DNO_CLEAR_ERRNO
+  ASMOFF_FORMAT_x86: cpp
+  ASSEMBLER_TYPE_x86: gcc
+  ASVFLAG_dll : -D__DLL -D__SLIB
+  BUILDENV    : qss
+  BUILDENV_alloc: qss ion
+  BUILDENV_dllmgr: iox
+  BUILDENV_dllmisc: iox
+  BUILDENV_dllstubs: iox
+  BUILDENV_ldd: qss
+  BUILDENV_libdl: iox
+  BUILDENV_malloc: iox
+  BUILDENV_miscdll: iox
+  CCFLAGS_alloc_ion: -DMALLOC_PC
+  CCFLAGS_ansi: -D__INLINE_FUNCTIONS__
+  CCFLAGS_crtbegin_PIC_gcc__mips: -mabicalls
+  CCFLAGS_crtend_PIC_gcc__mips: -mabicalls
+  CCFLAGS_execl_ppc: -msoft-float
+  CCFLAGS_execle_ppc: -msoft-float
+  CCFLAGS_execlp_ppc: -msoft-float
+  CCFLAGS_execlpe_ppc: -msoft-float
+  CCFLAGS_fcntl_ppc: -msoft-float
+  CCFLAGS_gcc_ansi: -Wno-uninitialized -Wno-switch -Wno-missing-braces -Wno-char-subscripts
+  CCFLAGS_gcc_stdio: -Wno-uninitialized -Wno-char-subscripts
+  CCFLAGS_gcc_string: -Wno-uninitialized
+  CCFLAGS_hwi_find_item_ppc: -msoft-float
+  CCFLAGS_ioctl_ppc: -msoft-float
+  CCFLAGS_ioctl_sh: -O1
+  CCFLAGS_iodir_ppc: -msoft-float
+  CCFLAGS_malloc_iox: -DMALLOC_ID
+  CCFLAGS_mcount: -fno-omit-frame-pointer
+  CCFLAGS_mips: -fno-optimize-sibling-calls
+  CCFLAGS_mount_ppc: -msoft-float
+  CCFLAGS_mq_open_ppc: -msoft-float
+  CCFLAGS_open64_ppc: -msoft-float
+  CCFLAGS_open_ppc: -msoft-float
+  CCFLAGS_sem_open_ppc: -msoft-float
+  CCFLAGS_sh  : -mspace
+  CCFLAGS_sopen_ppc: -msoft-float
+  CCFLAGS_spawnl_ppc: -msoft-float
+  CCFLAGS_spawnle_ppc: -msoft-float
+  CCFLAGS_spawnlp_ppc: -msoft-float
+  CCFLAGS_spawnlpe_ppc: -msoft-float
+  CCFLAGS_startup: -fpic -finhibit-size-directive $(CCFLAGS_startup_$(CPU)_$(COMPILER_TYPE)_$(COMPILER_DRIVER))
+  CCFLAGS_startup_mips_gcc_: -G0
+  CCFLAGS_startup_mips_gcc_qcc: -Wc,-G0
+  CCFLAGS_startup_ppc_gcc_: -G0
+  CCFLAGS_startup_ppc_gcc_qcc: -Wc,-G0
+  CCFLAGS_startup_sh_gcc_: -mprefergot
+  CCFLAGS_startup_sh_gcc_qcc: -mprefergot
+  CCFLAGS_stdio_ion: -DSTDIO_OPT_PERCENT_S_NULL=\"\(null\)\"
+  CCFLAGS_stdio_iox: -DSTDIO_OPT_PERCENT_S_NULL=\"\(null\)\"
+  CCFLAGS_stdio_qss: -DSTDIO_OPT_PERCENT_S_NULL=NULL
+  CCFLAGS_traceevent_ppc: -msoft-float
+  CCFLAGS_typed_mem_open_ppc: -msoft-float
+  CCF_gcc_    : -Wp,-include -Wp,$(PROJECT_ROOT)/inc/weak.h
+  CCF_gcc_qcc : -Wp,-include -Wp,$(PROJECT_ROOT)/inc/weak.h
+  CCF_opt_gcc_: -fno-strict-aliasing
+  CCF_opt_gcc_qcc: -fno-strict-aliasing
+  CCF_wcc_    : -fi$(PROJECT_ROOT)/inc/weak.h
+  CCVFLAG_dll : -D__DLL -D__SLIB
+  CCVFLAG_nofpu: $(CCVFLAG_nofpu_$(CPU))
+  CCVFLAG_nofpu_sh: -m4-nofpu
+  DEFFILE     : asmoff.def
+  EXTRA_INCVPATH: $(PROJECT_ROOT)/inc $(PROJECT_ROOT)/../../services/system/public $(PROJECT_ROOT)/../m/public $(PROJECT_ROOT)/../m/inc $(PROJECT_ROOT)/../pm/public $(PROJECT_ROOT)/../../services/registry/public
+  FLINTCONFIG_WO790585: $(PROJECT_ROOT)/libc-WO790585.lnt
+  FLINTCONFIG_default: $(PROJECT_ROOT)/libc-default.lnt
+  LIBCPP_SO_VERSION: 2
+  LIBM_SO_VERSION: 2
+  OS          : nto
+  QCONFIG     : qconfig.mk
+  wcc_comp    : $(firstword $(CC_nto_x86_wcc))
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/c/lib/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        c
+  LDFLAGS:     $(LDF_$(COMPILER_DRIVER))
+  BUILDENV    : qss
+  EXTRA_DEPS  : $(PWD)/libcS.a
+  EXTRA_LDD_DIR: $(patsubst %.,%,$(filter a so, $(VARIANTS)))$(patsubst %.,%,.$(filter be le, $(VARIANTS)))
+  ICLEAN      : lib*.*
+  LDF_        : -Wl,-Bstatic -nostartfiles -e_start_
+  LDF_qcc     : -Wl,-Bstatic -nostartup -Wl,-e_start_
+  LDPOST      : $(LDPOST_$(CPU)_$(GCC_VERSION))
+  LIBTYPE     : $(filter a so,$(VARIANTS))
+  LIBVPATH    : . $(USE_ROOT_LIB)
+  OBJS        : $(PROJECT_ROOT)/../../ldd_ion/$(CPU)/$(EXTRA_LDD_DIR)/*.o
+  POST_HINSTALL: $(LN_HOST) sys/poll.h $(INSTALL_ROOT_HDR)/poll.h
+  PUBLIC_INCVPATH: $(dir $(PROJECT_ROOT))public
+  QCONFIG     : qconfig.mk
+  SECTIONS    : $(filter-out $(foreach sect, lib startup $(EXCLUDE_SECTIONS_$(LIBTYPE)), %/$(sect)), $(sort $(subst /Makefile,,$(wildcard ../../../*/Makefile))))
+  SHARED_OBJS : $(OBJS)
+  SHARED_STATIC_EXCLUSION_OBJS: gmon.o sample.o
+  SHARED_STATIC_OBJS: $(filter-out $(addprefix %/,$(SHARED_STATIC_EXCLUSION_OBJS)), $(OBJS))
+  SO_VERSION  : $(LIBC_SO_VERSION)
+  STARTUP_DIR : a$(patsubst %.,%,.$(filter be le, $(VARIANTS)))
+  STATIC_ONLY_OBJS: __hwi_base.o __hwi_find_string.o _salloc.o cfgopen.o crypt.o ftw.o getlogin.o getpass.o getut.o getw.o getwd.o glob.o gmon.o hwi_find_item.o hwi_find_tag.o hwi_next_item.o hwi_next_tag.o hwi_off2tag.o hwi_tag2off.o inpline.o intr.o mcount.o miniproc_start.o modem_open.o modem_read.o modem_script.o modem_write.o popen.o pty.o putw.o qnx_crypt.o que.o random.o rdchk.o re_comp.o regcomp.o regerror.o regexec.o regfree.o sample.o scandir.o sched_get_priority_adjust.o slog.o strptime.o __waitid_net.o wordexp.o
+  STDIO_DIR   : so$(patsubst %.,%,.$(filter be le, $(VARIANTS)))
+  cmdlist     : $$(if $$(word 800, $$(objlist)), $$(ARPREF) $$(AROPTS) $$@ $$(objlist) $(ARVFLAGS_$(COMPILER_DRIVER)) $$(ARPOST)$$(NEWLINE) $$(eval $(reset_objlist)))
+  objlist     : $(o)
+  skipit      : 1
+  wcc_comp    : $(firstword $(CC_nto_x86_wcc))
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/compat/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/lib)
+  INSTALLDIR_qnx4: lib
+  PUBLIC_INCVPATH: $(PROJECT_ROOT)/public $(wildcard $(PROJECT_ROOT)/public_$(OS)_$(HOST_SYSTEM))
+  QCONFIG     : qconfig.mk
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/elf/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/lib)
+  CCFLAGS:     -DELF_TARGET_ALL
+  CCFLAGS_qnx4: -D_Uint64t=long -D_Int64t=long
+  EXTRA_INCVPATH: $(EXTRA_INCVPATH_$(OS))
+  EXTRA_INCVPATH_nto: $(PRODUCT_ROOT)/c/public
+  INSTALLDIR_qnx4: lib
+  QCONFIG     : qconfig.mk
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/kdutil/common.mk
+----------------------------------------------------------------------------------------------------
+  CC_nto_ppc_gcc: -msoft-float
+  CC_nto_ppc_gcc_qcc: -Wc,-msoft-float
+  DEFFILE     : asmoff.def
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/login/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/lib)
+  EXTRA_INCVPATH: $(PROJECT_ROOT)/h
+  EXTRA_SRCVPATH: $(PROJECT_ROOT)/c
+  INSTALLDIR_qnx4: lib
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/lzo/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/lib)
+  EXCLUDE_OBJS: example.o
+  INSTALLDIR_qnx4: lib
+  QCONFIG     : qconfig.mk
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/malloc/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(INSTALLDIR_$(DBG))
+  LIBS:        backtrace-lightS
+  CCFLAGS:     $(DEBUG) -DMALLOC_WRAPPER -D_LIBMALLOC $(CCFLAGS_$(DBG))
+  BUILDNAME   : $(IMAGE_PREF_$(BUILD_TYPE))$(NAME)$(subst _g,,$(VARIANT_TAG))$(IMAGE_SUFF_$(BUILD_TYPE))
+  BUILDNAME_SAR: $(IMAGE_PREF_AR)$(NAME)$(subst _g,,$(VARIANT_TAG))S$(IMAGE_SUFF_AR)
+  CCFLAGS_    : -I$(PROJECT_ROOT)/public/malloc
+  CCFLAGS___calloc: -UMALLOC_WRAPPER
+  CCFLAGS___free: -UMALLOC_WRAPPER
+  CCFLAGS___malloc: -UMALLOC_WRAPPER
+  CCFLAGS___malloc_pc: -UMALLOC_WRAPPER
+  CCFLAGS___memalign: -UMALLOC_WRAPPER
+  CCFLAGS___memalign_pc: -UMALLOC_WRAPPER
+  CCFLAGS___posix_memalign: -UMALLOC_WRAPPER
+  CCFLAGS___realloc: -UMALLOC_WRAPPER
+  CCFLAGS__band: -UMALLOC_WRAPPER
+  CCFLAGS__compat: -UMALLOC_WRAPPER
+  CCFLAGS__malloc: -UMALLOC_WRAPPER
+  CCFLAGS_g   : -O0
+  CCFLAGS_g__calloc: -UMALLOC_WRAPPER
+  CCFLAGS_g__free: -UMALLOC_WRAPPER
+  CCFLAGS_g__malloc: -UMALLOC_WRAPPER
+  CCFLAGS_g__malloc_pc: -UMALLOC_WRAPPER
+  CCFLAGS_g__memalign: -UMALLOC_WRAPPER
+  CCFLAGS_g__memalign_pc: -UMALLOC_WRAPPER
+  CCFLAGS_g__posix_memalign: -UMALLOC_WRAPPER
+  CCFLAGS_g__realloc: -UMALLOC_WRAPPER
+  CCFLAGS_g_band: -UMALLOC_WRAPPER
+  CCFLAGS_g_compat: -UMALLOC_WRAPPER
+  CCFLAGS_g_malloc: -UMALLOC_WRAPPER
+  DBG         : $(filter g, $(VARIANT_LIST))
+  EXTRA_SRCVPATH: $(EXTRA_SRCVPATH_$(DBG)) $(PROJECT_ROOT)/common $(PRODUCT_ROOT)/c/alloc
+  EXTRA_SRCVPATH_: $(PROJECT_ROOT)/std
+  EXTRA_SRCVPATH_g: $(PROJECT_ROOT)/dbg
+  INSTALLDIR_ : usr/lib
+  INSTALLDIR_g: usr/lib/malloc_g
+  LDOPTS      : -nostdlib++
+  POST_INSTALL: $(POST_INSTALL_$(DBG))
+  QCONFIG     : qconfig.mk
+  SO_VERSION  : 2
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/mig4nto/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/lib
+  EXTRA_INCVPATH: $(PRODUCT_ROOT)
+  QCONFIG     : qconfig.mk
+  SO_VERSION  : 2
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/misc/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/lib
+  CCFLAGS:     $(CCF_$(OS))
+  CCF_nto     : -Du_int32_t=uint32_t -Du_int16_t=uint16_t -Du_int8_t=uint8_t -D'_DIAGASSERT(x)=((void)0)'
+  INCVPATH    : $(PROJECT_ROOT)/
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/mq/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/lib
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        $(SECTION)
+  INSTALLDIR:  usr/lib
+  CCFLAGS:     -DHAVE_CONFIG_H
+  LDFLAGS:     $(LDFLAGS_$(subst ++,pp,$(SECTION))_$(OS))
+  CCFLAGS_ncursespp_qnx4: -v11.0
+  EXTRA_SILENT_VARIANTS: $(SECTION)
+  LDFLAGS_ncursespp_qnx4: -v11.0
+  PUBLIC_FLIST: form.h eti.h menu.h curses.h term.h unctrl.h cursesapp.h cursesf.h cursesm.h cursesp.h cursesw.h cursslk.h etip.h panel.h
+  PUBLIC_INCVPATH: $(PROJECT_ROOT)/include
+  QCONFIG     : qconfig.mk
+  VARIANT_LIST: $(filter-out ncurses++, $(VARIANT_LIST))
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/include/common.mk
+----------------------------------------------------------------------------------------------------
+  CHDRS       : curses.h form.h menu.h panel.h eti.h unctrl.h term.h
+  CXXHDRS     : cursesapp.h cursesf.h cursesm.h cursesp.h cursesw.h cursslk.h etip.h
+  HDRS        : $(CHDRS)
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/progs/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        $(SECTION)
+  INSTALLDIR:  usr/bin
+  LIBS:        $(LIBS_$(OS))
+  CCFLAGS:     -DHAVE_CONFIG_H
+  EXCLUDE_OBJS: termsort.o $(EXCLUDE_OBJS_$(SECTION))
+  EXCLUDE_OBJS_clear: dump_entry.o
+  EXCLUDE_OBJS_tput: dump_entry.o
+  EXTRA_INCVPATH: $(PROJECT_ROOT) $(PRODUCT_ROOT)/include $(wildcard $(PRODUCT_ROOT)/public_*)
+  EXTRA_LIBVPATH: $(foreach i, ncurses form panel menu ncurses++, $(PRODUCT_ROOT)/$i/$(OS)/$(CPU)/$(LIB_VARIANT_$(OS)))
+  EXTRA_SILENT_VARIANTS: $(SECTION)
+  LIBS_nto    : ncurses
+  LIBS_qnx4   : ncurses3r unix3r
+  LIB_VARIANT_nto: a
+  LIB_VARIANT_qnx4: a.3r
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(SECTION)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        $(SECTION)
+  INSTALLDIR:  /dev/null
+  LIBS:        $(LIBS_$(OS))
+  CCFLAGS:     -DHAVE_CONFIG_H
+  EXTRA_INCVPATH: $(PROJECT_ROOT) $(PROJECT_ROOT)/../include $(wildcard $(PROJECT_ROOT)/../public_*)
+  EXTRA_LIBVPATH: $(foreach i, ncurses form panel menu ncurses++, $(PROJECT_ROOT)/../$i/$(OS)/$(CPU)/$(LIB_VARIANT_$(OS)))
+  LIBS_nto    : ncurses form panel menu
+  LIBS_qnx4   : ncurses3r form3r panel3r menu3r ncurses++3r
+  LIB_VARIANT_nto: a
+  LIB_VARIANT_qnx4: a.3r
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(SECTION)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/qnx43/common.mk
+----------------------------------------------------------------------------------------------------
+  EXTRA_INCVPATH: $(PROJECT_ROOT)/h
+  EXTRA_SRCVPATH: $(PROJECT_ROOT)/c
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/qnxterm/common.mk
+----------------------------------------------------------------------------------------------------
+  CCFLAGS:     $(CCFLAGS_$(COMPILER_TYPE))
+  CCFLAGS_gcc : -Wc,-funsigned-char
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/shutdown/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/termcap/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/lib)
+  CCFLAGS:     $(CCFLAGS_$(COMPILER_TYPE))
+  CCFLAGS_gcc : -Wc,-funsigned-char
+  INSTALLDIR_qnx4: lib
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/traceparser/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/lib
+  QCONFIG     : qconfig.mk
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/ucl/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/lib)
+  INSTALLDIR_qnx4: lib
+  QCONFIG     : qconfig.mk
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/util/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/lib)
+  CCFLAGS:     -DELF_TARGET_ALL -Du_int32_t=uint32_t -Du_int16_t=uint16_t -Du_int8_t=uint8_t -D'_DIAGASSERT(x)=((void)0)'
+  EXTRA_INCVPATH: $(PROJECT_ROOT)/h $(PROJECT_ROOT)/public/util
+  INSTALLDIR_qnx4: lib
+  QCONFIG     : qconfig.mk
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/lib/z/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/lib)
+  EXCLUDE_OBJS: example.o
+  INSTALLDIR_qnx4: lib
+  QCONFIG     : qconfig.mk
+  SO_VERSION  : 2
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/cron/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/devc-ditto/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        devc-ditto
+  INSTALLDIR:  sbin
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/dumper/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  LIBS:        z
+  LIBPOST_z   : -Bdynamic
+  LIBPREF_z   : -Bstatic
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/init/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  CCFLAGS:     -Dlint -D__aconst=
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/kdebug/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        $(SECTION)_$(PROJECT)
+  INSTALLDIR:  boot/sys
+  LIBS:        kdutil
+  CCFLAGS:     -DMD_$(CPU) $(CCFLAGS_$(CPU))
+  ASMOFF_FORMAT_x86: cpp
+  ASSEMBLER_TYPE: gcc
+  CCFLAGS_x86 : -D_PADDR_BITS=64
+  CC_nto_ppc_gcc: -msoft-float
+  CC_nto_ppc_gcc_qcc: -Wc,-msoft-float
+  DEFFILE     : asmoff.def
+  EXTRA_CLEAN : asmoff.def
+  EXTRA_SILENT_VARIANTS: $(SECTION)
+  EXTRA_SRCVPATH: $(PROJECT_ROOT)/$(CPU)
+  LINKER_TYPE : BOOTSTRAP
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/kdumper/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  boot/sys
+  LIBS:        kdutil z
+  CCFLAGS:     $(CCFLAGS_$(CPU))
+  ASMOFF_FORMAT_x86: cpp
+  ASSEMBLER_TYPE: gcc
+  CCFLAGS_ppc : -D_PADDR_BITS=64
+  DEFAULT_WRITER: write_uuencode
+  DEFFILE     : asmoff.def
+  EXTRA_CLEAN : *.gh
+  EXTRA_INCVPATH: $(PRODUCT_ROOT)/system/memmgr
+  LINKER_TYPE : BOOTSTRAP
+  NOMODULE_SUPPORT: 1
+  NOWATCOM    : 1
+  QCONFIG     : qconfig.mk
+  WRITER_FILES: $(foreach f,$(SRCS),$(if $(findstring /write_,$(f)),$(f)))
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/lpd/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        $(SECTION)
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  LIBS:        socket
+  EXTRA_INCVPATH: $(PROJECT_ROOT)/common_source
+  EXTRA_SILENT_VARIANTS: $(SECTION)
+  INSTALLDIR_qnx4: usr/usb
+  PDESC_lpd   : BSD line printer spooler daemon
+  PDESC_lpr   : BSD spool to line printer command
+  PDESC_lprc  : BSD line printer control program
+  PDESC_lprq  : BSD line printer spool queue querying program
+  PDESC_lprrm : BSD line printer spooler job removal program
+  QCONFIG     : qconfig.mk
+  SRCVPATH    : $(PROJECT_ROOT)/common_source
+  USEFILE     : $(SECTION_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/mig4nto/mig4nto-procmgr/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        mig4nto
+  EXTRA_INCVPATH: $(PRODUCT_ROOT) $(PRODUCT_ROOT)/mig4nto/public
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/mig4nto-procmgr.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/mq/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/mqueue/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  CCFLAGS:     -DMQUEUE_1_THREAD
+  EXTRA_CCDEPS: $(wildcard $(PROJECT_ROOT)/*.h)
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/options.c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/mt_logger/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/mt_logger.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/pipe/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  CCFLAGS:     -D_FILE_OFFSET_BITS=64 -D_IOFUNC_OFFSET_BITS=64
+  EXTRA_CCDEPS: $(wildcard $(PROJECT_ROOT)/*.h) $(PROJECT_ROOT)/common.mk
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/random/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  LIBS:        m z
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/random.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/slogger/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/syslogd/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/sbin)
+  LIBS:        socket $(LIBS_$(OS))
+  EXCLUDE_OBJS: daemon.o
+  INSTALLDIR_qnx4: usr/ucb
+  LIBS_qnx4   : misc
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/system/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        procnto
+  INSTALLDIR:  boot/sys
+  CCFLAGS:     -D_BASE_FILE_=$(basename $@)
+  LDFLAGS:     timestamp.o $(LDF_$(COMPILER_TYPE)_$(COMPILER_DRIVER)) $(LDFLAGS_$(SRC_SECTION)_$(CPU)) $(LDFLAGS_$(basename $@)_$(CPU))
+  ADDON_MODULE_DIRS: ker/aps ker/apmgr memmgr/apm apmgr $(EXTRA_MODULES_$(BUILDENV)) $(EXTRA_MODULES)
+  ASFLAGS     : -DSMP_MSGOPT=1
+  BUILD_LIST  : $(FULLNAME) $(MODULE_LIBS)
+  CCFLAGS_ion : -DNO_INLINE_BLOCKANDREADY
+  CCFLAGS_iox : -DNO_INLINE_BLOCKANDREADY -DEVENT_REVIVE_LATER
+  CCF_gcc_    : -fno-common -fno-strict-aliasing
+  CCF_gcc_qcc : -Wc,-fno-common -Wc,-fno-strict-aliasing
+  CPU_TYPE    : $(CPU)
+  DEFFILE     : asmoff.def
+  EXCLUDE_OBJS: gcov_begin.o gcov_end.o
+  EXTRA_ASDEPS: $(EXTRA_CCDEPS)
+  EXTRA_CCDEPS: $(PROJECT_ROOT)/clean.timestamp $(PROJECT_ROOT)/proc/$(CPU)/clean.timestamp
+  EXTRA_CLEAN : timestamp.c
+  EXTRA_MODULES_ion: ker/cisco memmgr/cisco pathmgr/cisco proc/cisco
+  EXTRA_MODULES_iox: ker/cisco memmgr/cisco pathmgr/cisco proc/cisco
+  EXTRA_SILENT_VARIANTS: $(SECTION)
+  EXTRA_SRCVPATH: $(foreach sect, $(PROC_SECTIONS), $(addprefix $(PROJECT_ROOT)/$(sect)/$(CPU)/, $(SRC_VARIANTS)) $(PROJECT_ROOT)/$(sect)/$(CPU) $(PROJECT_ROOT)/$(sect))
+  FLINTCONFIG_WO790585: $(PROJECT_ROOT)/kernel-WO790585.lnt
+  FLINTCONFIG_default: $(PROJECT_ROOT)/kernel-default.lnt
+  GCOV_FIRST  : gcov_begin.o
+  GCOV_LAST   : gcov_end.o
+  ICLEAN      : procnto* tnto* $(MODULE_LIBS)
+  IDSTAMPER   : date +%Y/%m/%d-%T%Z
+  INCVPATH    : . $(addprefix $(PROJECT_ROOT)/$(SRC_SECTION)/, $(addprefix $(CPU)/, $(SRC_VARIANTS)) $(CPU) .) $(oldinc)
+  INST_MODULES: $(strip $(filter-out $(PWD)/libmod_ker.a $(PWD)/libmod_memmgr.a, $(MODULE_LIBS)))
+  LDF_gcc_qcc : -M
+  LINKER_TYPE : BOOTSTRAP
+  MODULE_DIRS : ker memmgr $(ADDON_MODULE_DIRS)
+  MODULE_LIBS : $(foreach module,$(ACTUAL_MODULE_NAMES), $(PWD)/libmod_$(module).a)
+  MODULE_NAMES: $(sort $(foreach module,$(MODULE_DIRS), $(notdir $(module))))
+  PROC_INSTDIR: $(INSTALL_ROOT_nto)/$(CPUDIR)/$(INSTALLDIR)/
+  PROC_SECTIONS: $(filter-out CVS doc $(MODULE_DIRS) proc public common.mk cvsignore %.h $(EXCLUDE_SECTIONS), $(notdir $(wildcard $(PROJECT_ROOT)/*)))
+  QCONFIG     : qconfig.mk
+  SRCS        : $(foreach m, $(MODULE_NAMES),$(SRCS_$(m)))
+  SRCVPATH    : $(foreach module,$(ACTUAL_MODULE_NAMES), $(SRCVPATH_$(module)))
+  SRC_SECTION : $(firstword $(subst /,$(space),$(subst $(PROJECT_ROOT)/,,$(call _native_path,$<))))
+  SRC_VARIANTS: $(filter-out be le o g, $(VARIANTS))
+  TIMESTAMP_CCPREF: -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols
+  TIMESTAMP_COMPILER_TYPE: gcc
+  _native_path: $(1)
+  modules     : $(MODULE_NAMES)
+  oldinc      : $(filter-out ., $(INCVPATH))
+  u           : $$(nto$(CPU)-nm -u $@ | grep -Ev '_gp|_end|_btext|_SDA_BASE_|_SDA2_BASE_|module_list_start|module_list_end'); test -z "$$u" || { $(ECHO_HOST)  "Unresolved symbols in $@:"; $(ECHO_HOST) "$$u"; $(RM_HOST) $@; exit 1; }
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/tinit/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/tinit.c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/services/tracelogger/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/tracelogger.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/a/asa/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/b/basename/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/b/bc/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/b/bzip2/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LINKS       : bunzip2 bz2cat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/canonical_dos_path/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/cat/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  INSTALLDIR_nto: bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/cfgopen/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/chmod/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  bin
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/chown/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  bin
+  LIBS:        util
+  LINKS       : chgrp
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/cksum/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/cmp/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/comm/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/confstr/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/coreinfo/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        coreinfo
+  INSTALLDIR:  usr/bin
+  LIBS:        compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/cp/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  bin
+  LIBS:        util $(LIBS_$(OS))
+  LIBS_qnx4   : qnx43
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/crontab/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  FILE_INFO   : 0 0 4775
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/csplit/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/c/cut/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/d/date/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        qnx43 util
+  LD_qnx4_x86_wcc: -T0
+  LINKS       : $(LINKS_$(OS))
+  LINKS_qnx4  : clock
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/d/dd/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/d/deflate/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        compat lzo ucl
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/d/diff/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/d/diff3/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/d/dirname/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/d/dit/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/d/du/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  bin
+  LIBS:        util
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/echo/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  INSTALLDIR_nto: bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/ed/common.mk
+----------------------------------------------------------------------------------------------------
+  LIBS:        $(foreach token, $(LIBS_D) $(LIBS_$(CPUDIR)) $(LIBS), $(if $(findstring ^, $(token)), $(subst ^,,$(token))$(LIB_SUFFIX), $(token)))
+  CCFLAGS:     $(CCFLAGS_$(CPUDIR)) $(CCFLAGS_$(basename $@)) $(CCFLAGS_$(CPUDIR)_$(basename $@)) $(CCFLAGS_D)
+  LDFLAGS:     $(LDFLAGS_$(CPUDIR)) $(LDFLAGS_D)
+  CCFLAGS_D   : $(CCFLAGS$(DEBUG_SUFFIX)) $(CCFLAGS_$(CPUDIR)$(DEBUG_SUFFIX)) $(CCFLAGS_$(basename $@)$(DEBUG_SUFFIX)) $(CCFLAGS_$(CPUDIR)_$(basename $@)$(DEBUG_SUFFIX))
+  DEBUG_SUFFIX: _r
+  EXTRA_INCVPATH: $(EXTRA_INCVPATH_$(CPUDIR)$(DEBUG_SUFFIX)) $(EXTRA_INCVPATH$(DEBUG_SUFFIX)) $(EXTRA_INCVPATH_$(CPUDIR)) $(EXTRA_INCVPATH)
+  EXTRA_LIBVPATH: $(EXTRA_LIBVPATH_$(CPUDIR)$(DEBUG_SUFFIX)) $(EXTRA_LIBVPATH$(DEBUG_SUFFIX)) $(EXTRA_LIBVPATH_$(CPUDIR)) $(EXTRA_LIBVPATH)
+  EXTRA_SRCVPATH: $(EXTRA_SRCVPATH_$(CPUDIR)$(DEBUG_SUFFIX)) $(EXTRA_SRCVPATH$(DEBUG_SUFFIX)) $(EXTRA_SRCVPATH_$(CPUDIR)) $(EXTRA_SRCVPATH)
+  LDFLAGS_D   : $(LDFLAGS$(DEBUG_SUFFIX)) $(LDFLAGS_$(CPUDIR)$(DEBUG_SUFFIX))
+  LIBS_D      : $(LIBS_$(CPUDIR)$(DEBUG_SUFFIX)) $(LIBS$(DEBUG_SUFFIX))
+  LIB_SUFFIX  : _g
+  OPTIMIZE_TYPE: $(OPTIMIZE_TYPE_$(filter g, $(VARIANTS)))
+  OPTIMIZE_TYPE_g: none
+  QCONFIG     : qconfig.mk
+  libnames    : $(subst lib-Bdynamic.a, ,$(subst lib-Bstatic.a, , $(libnames)))
+  libopts     : $(subst -l-B,-B, $(libopts))
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/elfdiff/common.mk
+----------------------------------------------------------------------------------------------------
+  LIBS:        $(LIBS_$(OS))
+  CCFLAGS_qnx4: -D__LITTLEENDIAN__
+  CCVFLAG_a   : -DMAKE_LIB
+  CCVFLAG_dll : -DMAKE_LIB
+  CCVFLAG_so  : -DMAKE_LIB
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/elvis/ctags/common.mk
+----------------------------------------------------------------------------------------------------
+  EXTRA_SRCVPATH: ../../../../common
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/elvis/elvis/common.mk
+----------------------------------------------------------------------------------------------------
+  LIBS:        socket ncurses
+  EXTRA_SRCVPATH: ../../../../common
+  LINKS       : ex vi $(LINKS_$(OS))
+  LINKS_nto   : view
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/enterkd/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/enterkd.c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/env/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/errno/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/esh/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  bin
+  LIBS:        socket
+  ADD_PINFO   : true
+  ADD_USAGE   : true
+  ALL_DEPENDENCIES: $(SHELLS)
+  EXTRA_CCDEPS: esh.c
+  ICLEAN      : $(SHELLS)
+  INSTALLNAME : $(INSTALL_DIRECTORY)/$(IMAGE_PREF_$(BUILD_TYPE))$(@)$(VARIANT_TAG)$(IMAGE_SUFF_$(BUILD_TYPE))$(VERSION_TAG_$(BUILD_TYPE))
+  QCONFIG     : qconfig.mk
+  SHELLS      : $(basename $(notdir $(wildcard ../../../*.c)))
+  USEFILE     : $(PROJECT_ROOT)/esh.c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/expand/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/e/expr/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/f/false/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/f/file/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        z
+  CCFLAGS:     -DHAVE_CONFIG_H -DQUICK -DBUILTIN_ELF -DELFCORE
+  EXTRA_CLEAN : mkmagic $(PROJECT_ROOT)/config$(MFILESDIR)/*
+  EXTRA_DEPS  : $(PROJECT_ROOT)/config$(MFILESDIR)/magic.mime $(PROJECT_ROOT)/config$(MFILESDIR)/magic
+  MAGIC       : $(MFILESDIR)/magic
+  MAGIC_FILES : $(wildcard $(PROJECT_ROOT)/magic/magdir/[0-9a-z]*)
+  MFILESDIR   : /usr/share/misc
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/f/find/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/f/fmt/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/f/fold/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/f/freeze/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LINKS       : melt fcat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/f/fstat/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/f/fullpath/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/f/fuser/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) sbin)
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/g/getconf/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LINKS       : setconf
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/g/getty/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/g/grep/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        $(LIBS_$(OS))
+  LIBS_win32  : regex compat
+  LINKS       : fgrep egrep
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/h/hd/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        $(LIBS_$(OS))
+  LIBS_win32  : compat
+  LINKS       : od
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/h/head/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/h/hogs/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  CCFLAGS:     -D_FILE_OFFSET_BITS=64 -D_IOFUNC_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE=1
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/i/id/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util qnx43
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/i/imagemanip/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/imgmanip.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/j/join/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util qnx43
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/k/kdserver/common.mk
+----------------------------------------------------------------------------------------------------
+  CPU_FILES   : $(foreach f,$(SRCS),$(if $(findstring /cpu_,$(f)),$(f)))
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/main.c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/k/kill/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/ldd/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  VFLAG_g     : -gstabs+
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/less/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        ncurses $(LIBS_$(COMPILER_TYPE))
+  LIBS_wcc    : unix3r
+  LINKS       : $(LINKS_$(OS))
+  LINKS_nto   : more
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/link/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/ln/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  bin
+  LIBS:        util
+  LINKS       : link
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/ln-w/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/logger/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/sbin
+  CCFLAGS:     -DUSE_TERMIO -DDIAGNOSTICS
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/login/common.mk
+----------------------------------------------------------------------------------------------------
+  LIBS:        $(LIBS_$(OS))
+  CCFLAGS_qnx4: -DBROKEN_CHROOT
+  FILE_INFO   : 0 0 4775
+  LIBS_qnx4   : login unix3r
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(OS)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/logout/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/ls/common.mk
+----------------------------------------------------------------------------------------------------
+  LIBS:        $(LIBS_$(OS))
+  LDPOST_qnx4_x86_wcc: -N128K
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/l/lx/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util
+  CCFLAGS:     $(CCFLAGS_$(COMPILER_TYPE))
+  CCFLAGS_gcc : -Wc,-funsigned-char
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mailx/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mcs/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        elf
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mesg/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mig4nto/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LDFLAGS:     -N8000
+  EXTRA_INCVPATH: $(PRODUCT_ROOT)
+  INSTALLDIR_qnx4: usr/bin
+  LEX         : lex
+  LFLAGS      : -i -l
+  POST_INSTALL: $(CP_HOST) $(PROJECT_ROOT)/mig4nto.tab $(INSTALL_ROOT_$(OS))/etc/mig4nto.tab
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mkasmoff/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        compat
+  CCFLAGS:     -DELF_TARGET_ALL
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mkdir/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  INSTALLDIR_nto: bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mkrec/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  LIBS:        compat
+  INSTALLDIR_qnx4: usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/mkrec.c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mkrom/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mkxfs/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        $(SECTION)
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  LIBS:        $(LIBS_$(SECTION)) compat z lzo ucl
+  CCFLAGS:     -DHAVE_ETFS
+  EXTRA_SILENT_VARIANTS: $(SECTION)
+  INSTALLDIR_nto: bin
+  LDOPTS      : -lmisc $(LDOPTS_$(SECTION))
+  LDOPTS_dumpifs: -lutil
+  LIB_SOCKET  : $(LIB_SOCKET_$(OS))
+  LIB_SOCKET_linux: pthread
+  LIB_SOCKET_nto: socket
+  LIB_SOCKET_solaris: socket nsl
+  LIB_SOCKET_win32: wsock32 iphlpapi
+  LINKS       : $(LINKS_$(SECTION))
+  LINKS_mkxfs : mketfs
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(SECTION)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/modem/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mount/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/m/mv/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/n/newgrp/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  CCFLAGS:     -DDONTUSESYSLOG -DFRUGAL
+  FILE_INFO   : 0 0 4775
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/n/nice/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/n/nohup/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/o/on/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) bin)
+  LIBS:        $(LIBS_$(OS))
+  INSTALLDIR_qnx4: usr/bin
+  LIBS_nto    : login
+  LINKS       : waitfor
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(OS_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/o/op/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/p/passwd/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        $(LIBS_$(OS))
+  CCFLAGS_qnx4: -DBROKEN_CHROOT
+  FILE_INFO   : 0 0 4775
+  LIBS_nto    : login
+  LIBS_qnx4   : login unix3r
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/p/paste/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/p/pathchk/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) sbin)
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/p/pax_qnx/common.mk
+----------------------------------------------------------------------------------------------------
+  NAME:        pax
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) bin)
+  LIBS:        $(LIBS_$(OS))
+  CCFLAGS:     -D_POSIX_SOURCE
+  INSTALLDIR_win32: usr/bin
+  LIBS_win32  : compat
+  LINKS       : cpio
+  QCONFIG     : qconfig.mk
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/p/pidin/common.mk
+----------------------------------------------------------------------------------------------------
+  CCFLAGS:     -D_LARGEFILE64_SOURCE=1
+  LD_nto_x86_wcc: -N32K
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/p/pr/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  CCFLAGS:     -O0
+  INSTALLDIR_qnx4: bin
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/p/printf/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/p/ps/common.mk
+----------------------------------------------------------------------------------------------------
+  CCFLAGS:     -D_LARGEFILE64_SOURCE=1
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(OS_ROOT)/ps.c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/p/pwd/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) bin)
+  INSTALLDIR_win32: usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/q/qcp/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/q/qed/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  LIBS:        qnxterm
+  CCFLAGS:     $(CCFLAGS_$(COMPILER_TYPE))
+  CCFLAGS_gcc : -Wc,-funsigned-char
+  INSTALLDIR_qnx4: usr/bin
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/q/qkcp/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  CCFLAGS:     -w9
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/qkcp.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/q/qtalk/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util qnx43
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/r/renice/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/r/resource_seed/common.mk
+----------------------------------------------------------------------------------------------------
+  LIBS:        $(foreach token, $(LIBS_D) $(LIBS_$(CPUDIR)) $(LIBS), $(if $(findstring ^, $(token)), $(subst ^,,$(token))$(LIB_SUFFIX), $(token)))
+  CCFLAGS:     $(CCFLAGS_$(CPUDIR)) $(CCFLAGS_$(basename $@)) $(CCFLAGS_$(CPUDIR)_$(basename $@)) $(CCFLAGS_D)
+  LDFLAGS:     $(LDFLAGS_$(CPUDIR)) $(LDFLAGS_D)
+  CCFLAGS_D   : $(CCFLAGS$(DEBUG_SUFFIX)) $(CCFLAGS_$(CPUDIR)$(DEBUG_SUFFIX)) $(CCFLAGS_$(basename $@)$(DEBUG_SUFFIX)) $(CCFLAGS_$(CPUDIR)_$(basename $@)$(DEBUG_SUFFIX))
+  DEBUG_SUFFIX: _r
+  EXTRA_LIBVPATH: $(EXTRA_LIBVPATH_D) $(EXTRA_LIBVPATH_$(CPUDIR)) $(EXTRA_LIBVPATH)
+  EXTRA_LIBVPATH_D: $(EXTRA_LIBVPATH_$(CPUDIR)$(DEBUG_SUFFIX)) $(EXTRA_LIBVPATH$(DEBUG_SUFFIX))
+  LDFLAGS_D   : $(LDFLAGS$(DEBUG_SUFFIX)) $(LDFLAGS_$(CPUDIR)$(DEBUG_SUFFIX))
+  LIBS_D      : $(LIBS_$(CPUDIR)$(DEBUG_SUFFIX)) $(LIBS$(DEBUG_SUFFIX))
+  LIB_SUFFIX  : _g
+  OPTIMIZE_TYPE: $(OPTIMIZE_TYPE_$(filter g, $(VARIANTS)))
+  OPTIMIZE_TYPE_g: none
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+  libnames    : $(subst lib-Bdynamic.a, ,$(subst lib-Bstatic.a, , $(libnames)))
+  libopts     : $(subst -l-B,-B, $(libopts))
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/r/rm/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) bin)
+  LIBS:        $(LIBS_$(OS))
+  INSTALLDIR_win32: usr/bin
+  LIBS_qnx4   : util
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/r/rmdir/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/r/rtc/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  LIBS:        util
+  DEFLIB_VARIANT: $(subst $(space),.,$(strip a $(filter wcc be le, $(VARIANTS))))
+  EXTRA_INCVPATH: $(PROJECT_ROOT)/../../../hardware/startup/lib/public
+  EXTRA_LIBVPATH: $(PROJECT_ROOT)/../../../lib/util/$(OS)/$(CPU)/$(LIB_VARIANT)
+  LD_qnx4_x86_wcc: -T0
+  LIB_VARIANT : $(firstword $(subst ./,,$(dir $(bind))) $(DEFLIB_VARIANT))
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/script/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/seed_hsr/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/seed_hsr.c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/seedres/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  LDFLAGS:     -M
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/seedres.use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/sendnto/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  LIBS:        $(LIBS_$(OS))
+  CCFLAGS:     -DELF_TARGET_ALL
+  INSTALLDIR_nto: bin
+  LDOPTS      : $(LDOPTS_$(OS))
+  LDOPTS_win32: -lws2_32
+  LIBS_nto    : socket
+  LIBS_qnx4   : socket
+  LIBS_solaris: posix4
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/sendnto.c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/setconf/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/showmem/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/shutdown/common.mk
+----------------------------------------------------------------------------------------------------
+  LIBS:        shutdown
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/slay/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/sleep/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/sloginfo/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/sort/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        $(LIBS_$(OS))
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/spatch/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        qnxterm qnx43 util
+  CCFLAGS:     $(CCFLAGS_$(COMPILER_TYPE))
+  CCFLAGS_gcc : -Wc,-funsigned-char
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/split/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  LIBS:        $(LIBS_$(OS))
+  INSTALLDIR_nto: bin
+  LIBS_win32  : regex
+  QCONFIG     : qconfig.mk
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/strings/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/stty/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/su/common.mk
+----------------------------------------------------------------------------------------------------
+  LIBS:        $(LIBS_$(OS)) login
+  FILE_INFO   : 0 0 4775
+  LIBS_qnx4   : unix3r
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/swapctl/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  sbin
+  LINKS       : swapon
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/sync/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) bin)
+  INSTALLDIR_qnx4: usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : ../../../sync.c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/s/sysctl/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) sbin)
+  LIBS:        misc socket
+  CCFLAGS:     $(CCF_$(OS))
+  CCF_nto     : -DINET6 -DIPSEC
+  CCF_qnx4    : -Dunix -zp1 -DINET_ONLY -DLITTLE_ENDIAN=1234 -DBYTE_ORDER=LITTLE_ENDIAN -g -DEXTERN=extern -DLONGLONG=__int64 -v11.0b -D_POSIX_SOURCE -fi=unix.h
+  EXCLUDE_OBJS: pathconf.o
+  INSTALLDIR_qnx4: usr/ucb
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/tail/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util $(LIBS_$(OS))
+  LDPOST_qnx4_x86_wcc: -N32K
+  LIBS_qnx4   : qnx43
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/tee/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/termdef/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        $(LIBS_$(OS))
+  LIBS_nto    : qnxterm
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/textmode/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        disputil
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/textto/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        $(LIBS_$(OS))
+  LIBS_qnx4   : util
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/time/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util qnx43
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/top/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/touch/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/tr/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        util
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/traceprinter/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        traceparser compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/traceprinter.c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/traceprinter/examples/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(SRCS)
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/traceprinter/regress/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  /dev/null
+  LIBS:        traceparser
+  LDFLAGS:     -B$(HOWTOLINK)
+  BUILDNAME   : ignore
+  DEFDEBUG    : -g
+  EXES        : $(addsuffix  ,$(basename $(notdir $(SRCS))))
+  HOWTOLINK   : $(word 1, $(filter static dynamic, $(VARIANTS) dynamic))
+  OPTIMIZE_TYPE: NONE
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/true/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) bin)
+  INSTALLDIR_win32: usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/t/tty/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/umask/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/umount/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/uname/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  $(firstword $(INSTALLDIR_$(OS)) usr/bin)
+  LIBS:        $(LIBS_$(OS))
+  CCFLAGS:     -w
+  INSTALLDIR_nto: bin
+  LIBS_mingw32: compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(OS)/uname.c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/unexpand/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/unifdef/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/uniq/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/unlink/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/use/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        $(LIBS_$(OS))
+  CCFLAGS:     -DELF_TARGET_ALL
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/usemsg/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        compat
+  CCFLAGS:     -DELF_TARGET_ALL
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/uud/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        socket
+  LIBPREF_socket: -Bstatic
+  LINKS       : uudecode
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/u/uue/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        socket
+  LIBPREF_socket: -Bstatic
+  LINKS       : uuencode
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/w/wc/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/w/which/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  LIBS:        $(LIBS_$(OS))
+  LIBS_win32  : compat
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).c
+  WIN32_ENVIRON: mingw
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/w/who/common.mk
+----------------------------------------------------------------------------------------------------
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+----------------------------------------------------------------------------------------------------
+Project: /home/me/Downloads/openqnx-master/trunk/utils/x/xargs/common.mk
+----------------------------------------------------------------------------------------------------
+  INSTALLDIR:  usr/bin
+  QCONFIG     : qconfig.mk
+  USEFILE     : $(PROJECT_ROOT)/$(NAME).use
+
+====================================================================================================
+SUMMARY
+----------------------------------------------------------------------------------------------------
+
+Install Directories:
+  $(INSTALLDIR_$(DBG))                    : 1 projects
+  $(firstword $(INSTALLDIR_$(OS)) bin)    : 6 projects
+  $(firstword $(INSTALLDIR_$(OS)) sbin)   : 3 projects
+  $(firstword $(INSTALLDIR_$(OS)) usr/bin): 11 projects
+  $(firstword $(INSTALLDIR_$(OS)) usr/lib): 8 projects
+  $(firstword $(INSTALLDIR_$(OS)) usr/sbin): 1 projects
+  /dev/null                               : 2 projects
+  bin                                     : 7 projects
+  boot/sys                                : 3 projects
+  sbin                                    : 12 projects
+  usr/bin                                 : 89 projects
+  usr/lib                                 : 7 projects
+  usr/sbin                                : 10 projects
+
+Most Used Libraries:
+  compat                        : used by 3 projects
+  $(LIBS_$(OS))                 : used by 3 projects
+  z                             : used by 2 projects
+  ucl                           : used by 2 projects
+  socket                        : used by 2 projects
+  lzo                           : used by 2 projects
+  kdutil                        : used by 2 projects
+  util                          : used by 1 projects
+  traceparser                   : used by 1 projects
+  token,                        : used by 1 projects
+  shutdown                      : used by 1 projects
+  qnxterm                       : used by 1 projects
+  qnx43                         : used by 1 projects
+  ncurses                       : used by 1 projects
+  misc                          : used by 1 projects
+  mig4nto                       : used by 1 projects
+  m                             : used by 1 projects
+  login                         : used by 1 projects
+  elf                           : used by 1 projects
+  disputil                      : used by 1 projects
+====================================================================================================

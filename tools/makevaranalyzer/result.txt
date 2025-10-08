@@ -1,0 +1,1570 @@
+Scanning: /home/me/Downloads/openqnx-master
+Looking for *.mk files...
+
+Processing: /home/me/Downloads/openqnx-master/qconf-override.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/ports/tar/lib/gnulib.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/apps/mt_metadata/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/apps/hello/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/apps/mt_test/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/apps/montt_rtapp/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/mqueue/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/kdumper/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/kdebug/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/random/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/mt_logger/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/pipe/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/system/module.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/system/proc/mips/cpu.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/system/proc/ppc/cpu.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/system/proc/arm/cpu.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/system/proc/x86/cpu.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/system/proc/sh/cpu.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/system/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/tracelogger/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/mig4nto/mig4nto-procmgr/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/syslogd/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/tinit/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/devc-ditto/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/slogger/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/cron/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/lpd/lprq/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/lpd/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/lpd/shared.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/lpd/lpd/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/lpd/lprrm/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/lpd/lprc/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/lpd/lpr/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/mq/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/init/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/services/dumper/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/k/kill/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/k/kdserver/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/b/bzip2/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/b/bc/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/b/basename/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/elfdiff/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/expr/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/errno/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/env/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/esh/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/echo/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/expand/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/enterkd/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/ed/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/elvis/ctags/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/e/elvis/elvis/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/a/asa/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/i/imagemanip/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/i/id/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/o/on/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/o/op/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/d/diff3/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/d/dirname/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/d/du/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/d/dd/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/d/diff/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/d/dit/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/d/deflate/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/d/date/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mcs/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mkasmoff/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mkrec/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mkdir/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mount/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/modem/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mkxfs/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mv/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mesg/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mig4nto/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mailx/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/m/mkrom/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/cfgopen/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/chmod/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/canonical_dos_path/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/cksum/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/crontab/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/cmp/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/coreinfo/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/confstr/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/comm/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/csplit/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/cp/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/cut/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/cat/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/c/chown/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/x/xargs/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/n/nice/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/n/nohup/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/n/newgrp/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/f/fullpath/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/f/find/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/f/freeze/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/f/fuser/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/f/fold/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/f/false/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/f/fstat/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/f/fmt/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/f/file/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/showmem/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/swapctl/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/setconf/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/spatch/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/script/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/split/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/strings/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/sleep/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/sysctl/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/sloginfo/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/su/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/seed_hsr/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/seed_hsr/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/sort/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/stty/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/slay/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/seedres/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/seedres/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/sendnto/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/sync/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/shutdown/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/svn/build-outputs.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/svn/apr/build-outputs.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/s/svn/apr-util/build-outputs.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/h/head/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/h/hd/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/h/hogs/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/g/getty/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/g/getconf/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/g/grep/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/g/gzip/lib/gnulib.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/logout/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/logger/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/lx/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/ls/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/link/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/ln/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/login/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/ln-w/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/ldd/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/l/less/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/q/qtalk/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/q/qkcp/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/q/qed/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/q/qcp/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/uud/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/uniq/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/umount/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/unexpand/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/uname/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/umask/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/use/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/unlink/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/unifdef/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/uue/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/u/usemsg/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/r/rtc/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/r/rm/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/r/rmdir/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/r/renice/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/r/resource_seed/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/j/join/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/p/pwd/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/p/pr/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/p/pidin/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/p/pax_qnx/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/p/pathchk/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/p/ps/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/p/passwd/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/p/paste/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/p/printf/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/termdef/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/traceprinter/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/traceprinter/examples/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/traceprinter/regress/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/tail/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/true/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/tty/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/top/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/textmode/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/tee/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/textto/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/tr/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/touch/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/t/time/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/w/wc/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/w/who/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/utils/w/which/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/ncurses/ncurses.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/firstlast/firstlast.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/ncurses/ncurses.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/bs/bs.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/testscanw/testscanw.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/view/view.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/testaddch/testaddch.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/knight/knight.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/lrtest/lrtest.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/demo/demo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/hanoi/hanoi.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/worm/worm.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/xmas/xmas.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/keynames/keynames.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/blue/blue.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/testcurs/testcurs.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/rain/rain.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/gdc/gdc.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/tclock/tclock.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/newdemo/newdemo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/usercall/usercall.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/hashtest/hashtest.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/test/firework/firework.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/include/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/progs/clear/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/progs/toe/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/progs/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/progs/tput/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/progs/tset/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/progs/infocmp/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ncurses/progs/tic/pinfo.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/ucl/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/qnxterm/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/elf/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/kdutil/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/util/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/traceparser/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/lzo/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/compat/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/qnx43/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/c/kercalls/extra.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/c/kercalls/kercalls.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/c/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/c/lib/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/c/lib/soversion.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/z/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/backtrace/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/mig4nto/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/malloc/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/misc/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/login/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/mq/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/asyncmsg/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/bessel/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/termcap/common.mk
+Processing: /home/me/Downloads/openqnx-master/trunk/lib/shutdown/common.mk
+
+Processed 250 file(s).
+
+================================================================================
+MAKEFILE ANALYSIS REPORT
+================================================================================
+
+UNDEFINED VARIABLES (396):
+--------------------------------------------------------------------------------
+  ABSOLUTE_DIRENT_H
+  ABSOLUTE_FCNTL_H
+  ABSOLUTE_FLOAT_H
+  ABSOLUTE_INTTYPES_H
+  ABSOLUTE_STDINT_H
+  ABSOLUTE_STDIO_H
+  ABSOLUTE_STDLIB_H
+  ABSOLUTE_STRING_H
+  ABSOLUTE_SYSEXITS_H
+  ABSOLUTE_SYS_STAT_H
+  ABSOLUTE_SYS_TIME_H
+  ABSOLUTE_TIME_H
+  ABSOLUTE_UNISTD_H
+  ABSOLUTE_WCHAR_H
+  ABSOLUTE_WCTYPE_H
+  ALLOCA_H
+  APACHE_LIBEXECDIR
+  APACHE_TARGET
+  AROPTS
+  ARPOST
+  ARPREF
+  BITSIZEOF_PTRDIFF_T
+  BITSIZEOF_SIG_ATOMIC_T
+  BITSIZEOF_SIZE_T
+  BITSIZEOF_WCHAR_T
+  BITSIZEOF_WINT_T
+  BUILD_TYPE
+  CCOPTS
+  CCPOST
+  CCPREF
+  CCVFLAGS
+  CC_nto_x86_wcc
+  CL_HOST
+  COMPILER
+  COMPILER_DRIVER
+  COMPILER_TYPE
+  COMPILE_APACHE_MOD
+  COMPILE_JAVAHL_CXX
+  COMPILE_JAVAHL_JAVAC
+  COMPILE_JAVAHL_JAVAH
+  COMPILE_PL_WRAPPER
+  COMPILE_PY_WRAPPER
+  COMPILE_RB_WRAPPER
+  COMPILE_SWIG_PL
+  COMPILE_SWIG_PY
+  COMPILE_SWIG_RB
+  COMPOUND_VARIANT
+  CPOPT
+  CPU
+  CPUDIR
+  CP_HOST
+  CREATE_AR
+  CREATE_EX
+  DEBUG
+  DESTDIR
+  DIRENT_H
+  ECHO_HOST
+  EXCLUDE_SECTIONS
+  EXEEXT
+  EXTRA_MODULES
+  EXTRA_SOURCE_DIRS
+  FCNTL_H
+  FLAGS
+  FLOAT_H
+  FNMATCH_H
+  GCC_VERSION
+  GETOPT_H
+  GLIBC21
+  GNULIB_CHOWN
+  GNULIB_DUP2
+  GNULIB_FCHDIR
+  GNULIB_FFLUSH
+  GNULIB_FPRINTF_POSIX
+  GNULIB_FSEEK
+  GNULIB_FSEEKO
+  GNULIB_FTELL
+  GNULIB_FTELLO
+  GNULIB_FTRUNCATE
+  GNULIB_GETCWD
+  GNULIB_GETLOGIN_R
+  GNULIB_GETSUBOPT
+  GNULIB_IMAXABS
+  GNULIB_IMAXDIV
+  GNULIB_LSEEK
+  GNULIB_MBSCASECMP
+  GNULIB_MBSCASESTR
+  GNULIB_MBSCHR
+  GNULIB_MBSCSPN
+  GNULIB_MBSLEN
+  GNULIB_MBSNCASECMP
+  GNULIB_MBSPBRK
+  GNULIB_MBSPCASECMP
+  GNULIB_MBSRCHR
+  GNULIB_MBSSEP
+  GNULIB_MBSSPN
+  GNULIB_MBSSTR
+  GNULIB_MBSTOK_R
+  GNULIB_MEMMEM
+  GNULIB_MEMPCPY
+  GNULIB_MEMRCHR
+  GNULIB_MKDTEMP
+  GNULIB_MKSTEMP
+  GNULIB_PRINTF_POSIX
+  GNULIB_READLINK
+  GNULIB_SLEEP
+  GNULIB_SNPRINTF
+  GNULIB_SPRINTF_POSIX
+  GNULIB_STPCPY
+  GNULIB_STPNCPY
+  GNULIB_STRCASESTR
+  GNULIB_STRCHRNUL
+  GNULIB_STRDUP
+  GNULIB_STRNDUP
+  GNULIB_STRNLEN
+  GNULIB_STRPBRK
+  GNULIB_STRSEP
+  GNULIB_STRTOIMAX
+  GNULIB_STRTOK_R
+  GNULIB_STRTOUMAX
+  GNULIB_VASPRINTF
+  GNULIB_VFPRINTF_POSIX
+  GNULIB_VPRINTF_POSIX
+  GNULIB_VSNPRINTF
+  GNULIB_VSPRINTF_POSIX
+  HAVE_DECL_GETLOGIN_R
+  HAVE_DECL_IMAXABS
+  HAVE_DECL_IMAXDIV
+  HAVE_DECL_MEMMEM
+  HAVE_DECL_MEMRCHR
+  HAVE_DECL_MKDIR
+  HAVE_DECL_SNPRINTF
+  HAVE_DECL_STRDUP
+  HAVE_DECL_STRNCASECMP
+  HAVE_DECL_STRNDUP
+  HAVE_DECL_STRNLEN
+  HAVE_DECL_STRTOIMAX
+  HAVE_DECL_STRTOK_R
+  HAVE_DECL_STRTOUMAX
+  HAVE_DECL_VSNPRINTF
+  HAVE_DUP2
+  HAVE_FTRUNCATE
+  HAVE_GETSUBOPT
+  HAVE_INTTYPES_H
+  HAVE_IO_H
+  HAVE_ISWCNTRL
+  HAVE_LONG_LONG_INT
+  HAVE_LSTAT
+  HAVE_MEMPCPY
+  HAVE_MKDTEMP
+  HAVE_READLINK
+  HAVE_SIGNED_SIG_ATOMIC_T
+  HAVE_SIGNED_WCHAR_T
+  HAVE_SIGNED_WINT_T
+  HAVE_SLEEP
+  HAVE_STDINT_H
+  HAVE_STPCPY
+  HAVE_STPNCPY
+  HAVE_STRCASECMP
+  HAVE_STRCASESTR
+  HAVE_STRCHRNUL
+  HAVE_STRNDUP
+  HAVE_STRPBRK
+  HAVE_STRSEP
+  HAVE_STRUCT_TIMEVAL
+  HAVE_SYSEXITS_H
+  HAVE_SYS_BITYPES_H
+  HAVE_SYS_INTTYPES_H
+  HAVE_SYS_TIME_H
+  HAVE_SYS_TYPES_H
+  HAVE_UNISTD_H
+  HAVE_UNSIGNED_LONG_LONG_INT
+  HAVE_VASPRINTF
+  HAVE_WCTYPE_H
+  HAVE_WINT_T
+  HAVE__BOOL
+  HOST_SYSTEM
+  IMAGE_PREF_AR
+  IMAGE_SUFF_AR
+  IMAGE_SUFF_SO
+  INSTALL_BDB_LIB
+  INSTALL_BIN
+  INSTALL_CONTRIB
+  INSTALL_DATA
+  INSTALL_DIRECTORY
+  INSTALL_EXTRA_JAVAHL_JAVA
+  INSTALL_EXTRA_JAVAHL_JAVAH
+  INSTALL_EXTRA_JAVAHL_LIB
+  INSTALL_EXTRA_JAVAHL_TESTS
+  INSTALL_EXTRA_SWIG_PY
+  INSTALL_EXTRA_SWIG_RB
+  INSTALL_FSMOD_LIB
+  INSTALL_IN
+  INSTALL_INCLUDE
+  INSTALL_JAVAHL_LIB
+  INSTALL_LIB
+  INSTALL_LOCALE
+  INSTALL_MOD_SHARED
+  INSTALL_MOD_STATIC
+  INSTALL_NEON_LIB
+  INSTALL_RAMOD_LIB
+  INSTALL_ROOT_EX
+  INSTALL_ROOT_HDR
+  INSTALL_ROOT_SO
+  INSTALL_SERF_LIB
+  INSTALL_SWIG_PL_LIB
+  INSTALL_SWIG_PY
+  INSTALL_SWIG_PY_LIB
+  INSTALL_SWIG_RB
+  INSTALL_SWIG_RB_LIB
+  INSTALL_TOOLS
+  INTTYPES_H
+  LDADD_dbd_freetds
+  LDADD_dbd_mysql
+  LDADD_dbd_odbc
+  LDADD_dbd_oracle
+  LDADD_dbd_pgsql
+  LDADD_dbd_sqlite2
+  LDADD_dbd_sqlite3
+  LDADD_ldap
+  LINK
+  LINK_APACHE_MOD
+  LINK_JAVAHL_CXX
+  LINK_MODULE
+  LINK_PL_WRAPPER
+  LINK_PY_WRAPPER
+  LINK_RB_WRAPPER
+  LN_HOST
+  LR_nto_x86_gcc
+  LR_nto_x86_gcc_qcc
+  LT_NO_UNDEFINED
+  MG_HOST
+  MKDIR
+  MKFILES_ROOT
+  MKKERCALLS_SWITCHES
+  MKSTUBS
+  NEON_LIBS
+  NEWLINE
+  NTOONLYOBJS
+  OSTYPE
+  OS_ROOT
+  PACKAGE
+  PACKAGE_NAME
+  POSTCREATE_AR
+  PRECREATE_AR
+  PRE_HINSTALL
+  PRIPTR_PREFIX
+  PRI_MACROS_BROKEN
+  PRODUCT_ROOT
+  PROJECT
+  PROJECT_ROOT
+  PTRDIFF_T_SUFFIX
+  PWD_HOST
+  QNX4ONLYOBJS
+  REPLACE_CHOWN
+  REPLACE_FCHDIR
+  REPLACE_FFLUSH
+  REPLACE_FPRINTF
+  REPLACE_FSEEK
+  REPLACE_FSEEKO
+  REPLACE_FTELL
+  REPLACE_FTELLO
+  REPLACE_GETCWD
+  REPLACE_GETTIMEOFDAY
+  REPLACE_LOCALTIME_R
+  REPLACE_LSEEK
+  REPLACE_MKSTEMP
+  REPLACE_NANOSLEEP
+  REPLACE_PRINTF
+  REPLACE_SNPRINTF
+  REPLACE_SPRINTF
+  REPLACE_STRPTIME
+  REPLACE_TIMEGM
+  REPLACE_VASPRINTF
+  REPLACE_VFPRINTF
+  REPLACE_VPRINTF
+  REPLACE_VSNPRINTF
+  REPLACE_VSPRINTF
+  RM_HOST
+  SECTION
+  SECTION_ROOT
+  SIG_ATOMIC_T_SUFFIX
+  SIZE_T_SUFFIX
+  SRCS
+  STDBOOL_H
+  STDINT_H
+  SVN_APRUTIL_INCLUDES
+  SVN_APRUTIL_LIBS
+  SVN_APR_INCLUDES
+  SVN_APR_LIBS
+  SVN_DB_LIBS
+  SVN_FS_LIB_DEPS
+  SVN_FS_LIB_INSTALL_DEPS
+  SVN_FS_LIB_LINK
+  SVN_RA_LIB_DEPS
+  SVN_RA_LIB_INSTALL_DEPS
+  SVN_RA_LIB_LINK
+  SVN_SASL_LIBS
+  SVN_SERF_LIBS
+  SVN_XML_LIBS
+  SVN_ZLIB_LIBS
+  SWIG_PY_LIBS
+  SWIG_RB_LIBS
+  SYSEXITS_H
+  SYS_STAT_H
+  SYS_TIME_H
+  SYS_TIME_H_DEFINES_STRUCT_TIMESPEC
+  TARGET_BUILD
+  TARGET_CLEAN
+  TARGET_HINSTALL
+  TARGET_ICLEAN
+  TARGET_INSTALL
+  TARGET_NINSTALL
+  TIME_H_DEFINES_STRUCT_TIMESPEC
+  TOUCH_HOST
+  UMPOST
+  UMPREF
+  USE_ROOT_LIB
+  USE_ROOT_nto
+  VARIANT1
+  VARIANTS
+  VARIANT_TAG
+  VERSION_TAG_SO
+  WCHAR_H
+  WCHAR_T_SUFFIX
+  WCTYPE_H
+  WINT_T_SUFFIX
+  abs_builddir
+  abs_srcdir
+  bdb_libdir
+  bin
+  bind
+  bindir
+  chkdir
+  contribdir
+  create_cmdlist
+  datadir
+  datarootdir
+  dir
+  docdir
+  dvidir
+  exec_prefix
+  f
+  file
+  fsmod_libdir
+  gl_LIBOBJS
+  host
+  htmldir
+  includedir
+  infodir
+  javahl_java_CLASSPATH
+  javahl_javadir
+  javahl_javah_CLASSPATH
+  javahl_javahdir
+  javahl_libdir
+  javahl_tests_CLASSPATH
+  javahl_testsdir
+  libdir
+  libexecdir
+  link
+  lispdir
+  localedir
+  localstatedir
+  m
+  mandir
+  manext
+  mkinstalldirs
+  module
+  neon_libdir
+  o
+  oldincludedir
+  only_objs
+  pdfdir
+  pkgdatadir
+  pkgincludedir
+  pkglibdir
+  pkglibexecdir
+  prefix
+  psdir
+  ramod_libdir
+  reset_objlist
+  sbindir
+  sect
+  serf_libdir
+  sharedstatedir
+  space
+  srcdir
+  swig_pl_libdir
+  swig_py_libdir
+  swig_pydir
+  swig_rb_libdir
+  swig_rbdir
+  sysconfdir
+  token
+  toolsdir
+  top_builddir
+  top_srcdir
+
+DEFINED VARIABLES (665):
+--------------------------------------------------------------------------------
+  1
+  ACTUAL_MODULE_NAMES
+  ADDON_MODULE_DIRS
+  ADD_PINFO
+  ADD_USAGE
+  ALL_DEPENDENCIES
+  AM_CPPFLAGS
+  ASMOFF_FORMAT_x86
+  ASSEMBLER_TYPE
+  ASSEMBLER_TYPE_x86
+  AUTOMAKE_OPTIONS
+  BDB_TEST_DEPS
+  BDB_TEST_PROGRAMS
+  BUILDENV
+  BUILDENV_alloc
+  BUILDENV_dllmgr
+  BUILDENV_dllmisc
+  BUILDENV_dllstubs
+  BUILDENV_ldd
+  BUILDENV_libdl
+  BUILDENV_malloc
+  BUILDENV_miscdll
+  BUILDNAME
+  BUILDNAME_SAR
+  BUILD_DIRS
+  BUILD_LIST
+  BUILT_SOURCES
+  CCFLAGS
+  CCFLAGS_
+  CCFLAGS_600
+  CCFLAGS_900
+  CCFLAGS_D
+  CCFLAGS___calloc
+  CCFLAGS___free
+  CCFLAGS___malloc
+  CCFLAGS___malloc_pc
+  CCFLAGS___memalign
+  CCFLAGS___memalign_pc
+  CCFLAGS___posix_memalign
+  CCFLAGS___realloc
+  CCFLAGS__band
+  CCFLAGS__compat
+  CCFLAGS__malloc
+  CCFLAGS_alloc_ion
+  CCFLAGS_booke
+  CCFLAGS_crtbegin_PIC_gcc__mips
+  CCFLAGS_crtend_PIC_gcc__mips
+  CCFLAGS_execl_ppc
+  CCFLAGS_execle_ppc
+  CCFLAGS_execlp_ppc
+  CCFLAGS_execlpe_ppc
+  CCFLAGS_fcntl_ppc
+  CCFLAGS_g
+  CCFLAGS_g__calloc
+  CCFLAGS_g__free
+  CCFLAGS_g__malloc
+  CCFLAGS_g__malloc_pc
+  CCFLAGS_g__memalign
+  CCFLAGS_g__memalign_pc
+  CCFLAGS_g__posix_memalign
+  CCFLAGS_g__realloc
+  CCFLAGS_g_band
+  CCFLAGS_g_compat
+  CCFLAGS_g_malloc
+  CCFLAGS_gcc
+  CCFLAGS_hwi_find_item_ppc
+  CCFLAGS_ioctl_ppc
+  CCFLAGS_iodir_ppc
+  CCFLAGS_ion
+  CCFLAGS_iox
+  CCFLAGS_malloc_iox
+  CCFLAGS_mcount
+  CCFLAGS_mount_ppc
+  CCFLAGS_mq_open_ppc
+  CCFLAGS_ncursespp_qnx4
+  CCFLAGS_nto
+  CCFLAGS_open64_ppc
+  CCFLAGS_open_ppc
+  CCFLAGS_qnx4
+  CCFLAGS_sem_open_ppc
+  CCFLAGS_sopen_ppc
+  CCFLAGS_spawnl_ppc
+  CCFLAGS_spawnle_ppc
+  CCFLAGS_spawnlp_ppc
+  CCFLAGS_spawnlpe_ppc
+  CCFLAGS_startup
+  CCFLAGS_startup_mips_gcc_
+  CCFLAGS_startup_mips_gcc_qcc
+  CCFLAGS_startup_ppc_gcc_
+  CCFLAGS_startup_ppc_gcc_qcc
+  CCFLAGS_startup_sh_gcc_
+  CCFLAGS_startup_sh_gcc_qcc
+  CCFLAGS_stdio_ion
+  CCFLAGS_stdio_iox
+  CCFLAGS_stdio_qss
+  CCFLAGS_traceevent_ppc
+  CCFLAGS_typed_mem_open_ppc
+  CCF_gcc_
+  CCF_gcc_qcc
+  CCF_nto
+  CCF_opt_gcc_
+  CCF_opt_gcc_qcc
+  CCF_qnx4
+  CCF_wcc_
+  CCVFLAG_a
+  CCVFLAG_dll
+  CCVFLAG_nofpu
+  CCVFLAG_nofpu_sh
+  CCVFLAG_so
+  CCVFLAG_tx79
+  CFLAGS
+  CHDRS
+  CHECK_FOR_UNDEFS
+  CLEANFILES
+  CLEAN_FILES
+  CPU_FILES
+  CPU_TYPE
+  CPU_TYPE_600
+  CURRENT_FAMILY
+  CXXHDRS
+  DBG
+  DEBUG_SUFFIX
+  DEFAULT_WRITER
+  DEFCOMPILER_TYPE_x86
+  DEFDEBUG
+  DEFFILE
+  DEFLIB_VARIANT
+  DISTCLEANFILES
+  EXCLUDE_OBJS
+  EXCLUDE_OBJS_clear
+  EXCLUDE_OBJS_tput
+  EXES
+  EXTRA_CCDEPS
+  EXTRA_CLEAN
+  EXTRA_DEPS
+  EXTRA_DIR_ker_600
+  EXTRA_DIR_ker_900
+  EXTRA_DIR_memmgr_600
+  EXTRA_DIR_memmgr_900
+  EXTRA_DIST
+  EXTRA_INCVPATH
+  EXTRA_INCVPATH_nto
+  EXTRA_LDD_DIR
+  EXTRA_LIBVPATH
+  EXTRA_LIBVPATH_D
+  EXTRA_MODULES_ion
+  EXTRA_MODULES_iox
+  EXTRA_OBJS
+  EXTRA_SILENT_VARIANTS
+  EXTRA_SRCVPATH
+  EXTRA_SRCVPATH_
+  EXTRA_SRCVPATH_g
+  EXTRA_libgzip_a_SOURCES
+  EXTRA_libtar_a_SOURCES
+  FAMILY_NAMES
+  FILE_INFO
+  FLAGS_ktest_ppc
+  FS_BASE_DEPS
+  FS_BASE_LINK
+  FS_FS_DEPS
+  FS_FS_LINK
+  FULLNAME
+  GCOV_FIRST
+  GCOV_LAST
+  HAVE_INCLUDE_NEXT
+  HDRS
+  HEADERS
+  HOWTOLINK
+  ICLEAN
+  IDSTAMPER
+  INCVPATH
+  INSTALLDIR
+  INSTALLDIR_
+  INSTALLDIR_g
+  INSTALLDIR_nto
+  INSTALLDIR_qnx4
+  INSTALLDIR_win32
+  INSTALLNAME
+  INSTALL_ROOT_nto
+  INST_MODULES
+  KERCALLS_H
+  LDBOOTSTRAP_nto_x86_gcc
+  LDBOOTSTRAP_nto_x86_gcc_qcc
+  LDBOOTSTRAP_nto_x86_wcc
+  LDFLAGS
+  LDFLAGS_D
+  LDFLAGS_ncursespp_qnx4
+  LDF_
+  LDF_gcc_qcc
+  LDF_qcc
+  LDOPTS_win32
+  LEX
+  LFLAGS
+  LIBCPP_SO_VERSION
+  LIBC_SO_VERSION
+  LIBM_SO_VERSION
+  LIBPOST_z
+  LIBPREF_socket
+  LIBPREF_z
+  LIBS
+  LIBS_D
+  LIBS_mingw32
+  LIBS_nto
+  LIBS_qnx4
+  LIBS_solaris
+  LIBS_wcc
+  LIBS_win32
+  LIBTYPE
+  LIBVPATH
+  LIB_SOCKET
+  LIB_SOCKET_linux
+  LIB_SOCKET_nto
+  LIB_SOCKET_solaris
+  LIB_SOCKET_win32
+  LIB_SUFFIX
+  LIB_VARIANT
+  LIB_VARIANT_nto
+  LIB_VARIANT_qnx4
+  LINKER_TYPE
+  LINKS
+  LINKS_mkxfs
+  LINKS_nto
+  LINKS_qnx4
+  LINK_WARNING_H
+  LPC_OBJS
+  LPD_OBJS
+  LPQ_OBJS
+  LPRM_OBJS
+  LPR_OBJS
+  MAGIC
+  MAGIC_FILES
+  MAINTAINERCLEANFILES
+  MANPAGES
+  MFILESDIR
+  MKKERCALLS
+  MKKERCALLS_DIR
+  MODULE_DIRS
+  MODULE_LIBS
+  MODULE_NAMES
+  MODULE_dbd_freetds
+  MODULE_dbd_mysql
+  MODULE_dbd_odbc
+  MODULE_dbd_oracle
+  MODULE_dbd_pgsql
+  MODULE_dbd_sqlite2
+  MODULE_dbd_sqlite3
+  MODULE_ldap
+  MOSTLYCLEANDIRS
+  MOSTLYCLEANFILES
+  NAME
+  NOMODULE_SUPPORT
+  NOWATCOM
+  OBJECTS_aix
+  OBJECTS_all
+  OBJECTS_atomic_os390
+  OBJECTS_atomic_unix
+  OBJECTS_atomic_win32
+  OBJECTS_beos
+  OBJECTS_dbd_freetds
+  OBJECTS_dbd_mysql
+  OBJECTS_dbd_odbc
+  OBJECTS_dbd_oracle
+  OBJECTS_dbd_pgsql
+  OBJECTS_dbd_sqlite2
+  OBJECTS_dbd_sqlite3
+  OBJECTS_dso_aix
+  OBJECTS_dso_beos
+  OBJECTS_dso_os2
+  OBJECTS_dso_os390
+  OBJECTS_dso_unix
+  OBJECTS_dso_win32
+  OBJECTS_file_io_os2
+  OBJECTS_file_io_unix
+  OBJECTS_file_io_win32
+  OBJECTS_ldap
+  OBJECTS_locks_beos
+  OBJECTS_locks_os2
+  OBJECTS_locks_unix
+  OBJECTS_locks_win32
+  OBJECTS_memory_unix
+  OBJECTS_misc_unix
+  OBJECTS_misc_win32
+  OBJECTS_mmap_unix
+  OBJECTS_mmap_win32
+  OBJECTS_network_io_beos
+  OBJECTS_network_io_os2
+  OBJECTS_network_io_unix
+  OBJECTS_network_io_win32
+  OBJECTS_os2
+  OBJECTS_os390
+  OBJECTS_poll_os2
+  OBJECTS_poll_unix
+  OBJECTS_random_unix
+  OBJECTS_shmem_beos
+  OBJECTS_shmem_os2
+  OBJECTS_shmem_unix
+  OBJECTS_shmem_win32
+  OBJECTS_support_unix
+  OBJECTS_threadproc_beos
+  OBJECTS_threadproc_os2
+  OBJECTS_threadproc_unix
+  OBJECTS_threadproc_win32
+  OBJECTS_time_unix
+  OBJECTS_time_win32
+  OBJECTS_unix
+  OBJECTS_user_unix
+  OBJECTS_user_win32
+  OBJECTS_win32
+  OBJS
+  OPTIMIZE_TYPE
+  OS
+  PDESC_lpd
+  PDESC_lpr
+  PDESC_lprc
+  PDESC_lprq
+  PDESC_lprrm
+  POST_HINSTALL
+  POST_INSTALL
+  PROC_INSTDIR
+  PROC_SECTIONS
+  PUBLIC_FLIST
+  PUBLIC_INCVPATH
+  PWD
+  QCONFIG
+  RA_LOCAL_DEPS
+  RA_LOCAL_LINK
+  RA_NEON_DEPS
+  RA_NEON_LINK
+  RA_SERF_DEPS
+  RA_SERF_LINK
+  RA_SVN_DEPS
+  RA_SVN_LINK
+  RELEASE_MODE
+  SECTIONS
+  SHARED_OBJS
+  SHARED_STATIC_EXCLUSION_OBJS
+  SHARED_STATIC_OBJS
+  SHELLS
+  SOURCE_DIRS
+  SO_VERSION
+  SRC_SECTION
+  SRC_VARIANTS
+  STARTUP_DIR
+  STATIC_ONLY_OBJS
+  STDIO_DIR
+  SUFFIXES
+  SWIG_INCLUDES
+  TEST_DEPS
+  TEST_PROGRAMS
+  TIMESTAMP_CCPREF
+  TIMESTAMP_COMPILER_TYPE
+  TOP
+  USEFILE
+  USE_INSTALL_ROOT
+  VARIANT_LIST
+  VERSION_REL
+  VFLAG_g
+  WIN32_ENVIRON
+  WRITER_FILES
+  _native_path
+  changes_test_DEPS
+  changes_test_OBJECTS
+  changes_test_PATH
+  charset_alias
+  charset_tmp
+  client_test_DEPS
+  client_test_OBJECTS
+  client_test_PATH
+  cmdlist
+  compat_test_DEPS
+  compat_test_OBJECTS
+  compat_test_PATH
+  config_test_DEPS
+  config_test_OBJECTS
+  config_test_PATH
+  diff3_DEPS
+  diff3_OBJECTS
+  diff3_PATH
+  diff4_DEPS
+  diff4_OBJECTS
+  diff4_PATH
+  diff_DEPS
+  diff_OBJECTS
+  diff_PATH
+  diff_diff3_test_DEPS
+  diff_diff3_test_OBJECTS
+  diff_diff3_test_PATH
+  dir_list
+  error_test_DEPS
+  error_test_OBJECTS
+  error_test_PATH
+  fs_base_test_DEPS
+  fs_base_test_OBJECTS
+  fs_base_test_PATH
+  fs_test_DEPS
+  fs_test_OBJECTS
+  fs_test_PATH
+  hashdump_test_DEPS
+  hashdump_test_OBJECTS
+  hashdump_test_PATH
+  javahl_java_DEPS
+  javahl_java_HEADERS
+  javahl_java_OBJECTS
+  javahl_java_PATH
+  javahl_java_SRC
+  javahl_javah_CLASSES
+  javahl_javah_CLASS_FILENAMES
+  javahl_javah_DEPS
+  javahl_javah_HEADERS
+  javahl_javah_OBJECTS
+  javahl_javah_PATH
+  javahl_tests_DEPS
+  javahl_tests_HEADERS
+  javahl_tests_OBJECTS
+  javahl_tests_PATH
+  javahl_tests_SRC
+  key_test_DEPS
+  key_test_OBJECTS
+  key_test_PATH
+  libgzip_a_DEPENDENCIES
+  libgzip_a_LIBADD
+  libgzip_a_SOURCES
+  libnames
+  libopts
+  libsvn_client_DEPS
+  libsvn_client_OBJECTS
+  libsvn_client_PATH
+  libsvn_delta_DEPS
+  libsvn_delta_OBJECTS
+  libsvn_delta_PATH
+  libsvn_diff_DEPS
+  libsvn_diff_OBJECTS
+  libsvn_diff_PATH
+  libsvn_fs_DEPS
+  libsvn_fs_OBJECTS
+  libsvn_fs_PATH
+  libsvn_fs_base_DEPS
+  libsvn_fs_base_OBJECTS
+  libsvn_fs_base_PATH
+  libsvn_fs_fs_DEPS
+  libsvn_fs_fs_OBJECTS
+  libsvn_fs_fs_PATH
+  libsvn_fs_util_DEPS
+  libsvn_fs_util_OBJECTS
+  libsvn_fs_util_PATH
+  libsvn_ra_DEPS
+  libsvn_ra_OBJECTS
+  libsvn_ra_PATH
+  libsvn_ra_local_DEPS
+  libsvn_ra_local_OBJECTS
+  libsvn_ra_local_PATH
+  libsvn_ra_neon_DEPS
+  libsvn_ra_neon_OBJECTS
+  libsvn_ra_neon_PATH
+  libsvn_ra_serf_DEPS
+  libsvn_ra_serf_OBJECTS
+  libsvn_ra_serf_PATH
+  libsvn_ra_svn_DEPS
+  libsvn_ra_svn_OBJECTS
+  libsvn_ra_svn_PATH
+  libsvn_repos_DEPS
+  libsvn_repos_OBJECTS
+  libsvn_repos_PATH
+  libsvn_subr_DEPS
+  libsvn_subr_OBJECTS
+  libsvn_subr_PATH
+  libsvn_swig_perl_DEPS
+  libsvn_swig_perl_OBJECTS
+  libsvn_swig_perl_PATH
+  libsvn_swig_py_DEPS
+  libsvn_swig_py_OBJECTS
+  libsvn_swig_py_PATH
+  libsvn_swig_ruby_DEPS
+  libsvn_swig_ruby_OBJECTS
+  libsvn_swig_ruby_PATH
+  libsvn_test_DEPS
+  libsvn_test_OBJECTS
+  libsvn_test_PATH
+  libsvn_wc_DEPS
+  libsvn_wc_OBJECTS
+  libsvn_wc_PATH
+  libsvnjavahl_DEPS
+  libsvnjavahl_OBJECTS
+  libsvnjavahl_PATH
+  libtar_a_DEPENDENCIES
+  libtar_a_LIBADD
+  libtar_a_SOURCES
+  locale_DEPS
+  locale_PATH
+  locks_test_DEPS
+  locks_test_OBJECTS
+  locks_test_PATH
+  mergeinfo_test_DEPS
+  mergeinfo_test_OBJECTS
+  mergeinfo_test_PATH
+  mod_authz_svn_DEPS
+  mod_authz_svn_OBJECTS
+  mod_authz_svn_PATH
+  mod_dav_svn_DEPS
+  mod_dav_svn_OBJECTS
+  mod_dav_svn_PATH
+  modules
+  noinst_HEADERS
+  noinst_LIBRARIES
+  noinst_LTLIBRARIES
+  objlist
+  oldinc
+  opt_test_DEPS
+  opt_test_OBJECTS
+  opt_test_PATH
+  path_test_DEPS
+  path_test_OBJECTS
+  path_test_PATH
+  perl_client_DEPS
+  perl_client_OBJECTS
+  perl_client_PATH
+  perl_core_DEPS
+  perl_core_OBJECTS
+  perl_core_PATH
+  perl_delta_DEPS
+  perl_delta_OBJECTS
+  perl_delta_PATH
+  perl_diff_DEPS
+  perl_diff_OBJECTS
+  perl_diff_PATH
+  perl_fs_DEPS
+  perl_fs_OBJECTS
+  perl_fs_PATH
+  perl_ra_DEPS
+  perl_ra_OBJECTS
+  perl_ra_PATH
+  perl_repos_DEPS
+  perl_repos_OBJECTS
+  perl_repos_PATH
+  perl_wc_DEPS
+  perl_wc_OBJECTS
+  perl_wc_PATH
+  python_client_DEPS
+  python_client_OBJECTS
+  python_client_PATH
+  python_core_DEPS
+  python_core_OBJECTS
+  python_core_PATH
+  python_delta_DEPS
+  python_delta_OBJECTS
+  python_delta_PATH
+  python_diff_DEPS
+  python_diff_OBJECTS
+  python_diff_PATH
+  python_fs_DEPS
+  python_fs_OBJECTS
+  python_fs_PATH
+  python_ra_DEPS
+  python_ra_OBJECTS
+  python_ra_PATH
+  python_repos_DEPS
+  python_repos_OBJECTS
+  python_repos_PATH
+  python_wc_DEPS
+  python_wc_OBJECTS
+  python_wc_PATH
+  ra_local_test_DEPS
+  ra_local_test_OBJECTS
+  ra_local_test_PATH
+  random_test_DEPS
+  random_test_OBJECTS
+  random_test_PATH
+  repos_test_DEPS
+  repos_test_OBJECTS
+  repos_test_PATH
+  revision_test_DEPS
+  revision_test_OBJECTS
+  revision_test_PATH
+  ruby_client_DEPS
+  ruby_client_OBJECTS
+  ruby_client_PATH
+  ruby_core_DEPS
+  ruby_core_OBJECTS
+  ruby_core_PATH
+  ruby_delta_DEPS
+  ruby_delta_OBJECTS
+  ruby_delta_PATH
+  ruby_diff_DEPS
+  ruby_diff_OBJECTS
+  ruby_diff_PATH
+  ruby_fs_DEPS
+  ruby_fs_OBJECTS
+  ruby_fs_PATH
+  ruby_ra_DEPS
+  ruby_ra_OBJECTS
+  ruby_ra_PATH
+  ruby_repos_DEPS
+  ruby_repos_OBJECTS
+  ruby_repos_PATH
+  ruby_wc_DEPS
+  ruby_wc_OBJECTS
+  ruby_wc_PATH
+  select_compiler
+  skel_test_DEPS
+  skel_test_OBJECTS
+  skel_test_PATH
+  skipit
+  stream_test_DEPS
+  stream_test_OBJECTS
+  stream_test_PATH
+  string_test_DEPS
+  string_test_OBJECTS
+  string_test_PATH
+  strings_reps_test_DEPS
+  strings_reps_test_OBJECTS
+  strings_reps_test_PATH
+  svn_DEPS
+  svn_OBJECTS
+  svn_PATH
+  svn_populate_node_origins_index_DEPS
+  svn_populate_node_origins_index_OBJECTS
+  svn_populate_node_origins_index_PATH
+  svn_push_DEPS
+  svn_push_OBJECTS
+  svn_push_PATH
+  svnadmin_DEPS
+  svnadmin_OBJECTS
+  svnadmin_PATH
+  svnauthz_validate_DEPS
+  svnauthz_validate_OBJECTS
+  svnauthz_validate_PATH
+  svndiff_test_DEPS
+  svndiff_test_OBJECTS
+  svndiff_test_PATH
+  svndumpfilter_DEPS
+  svndumpfilter_OBJECTS
+  svndumpfilter_PATH
+  svnlook_DEPS
+  svnlook_OBJECTS
+  svnlook_PATH
+  svnmucc_DEPS
+  svnmucc_OBJECTS
+  svnmucc_PATH
+  svnserve_DEPS
+  svnserve_OBJECTS
+  svnserve_PATH
+  svnsync_DEPS
+  svnsync_OBJECTS
+  svnsync_PATH
+  svnversion_DEPS
+  svnversion_OBJECTS
+  svnversion_PATH
+  t
+  target_test_DEPS
+  target_test_OBJECTS
+  target_test_PATH
+  time_test_DEPS
+  time_test_OBJECTS
+  time_test_PATH
+  translate_test_DEPS
+  translate_test_OBJECTS
+  translate_test_PATH
+  u
+  utf_test_DEPS
+  utf_test_OBJECTS
+  utf_test_PATH
+  vdelta_test_DEPS
+  vdelta_test_OBJECTS
+  vdelta_test_PATH
+  wcc_comp
+
+COMMANDS/TOOLS INVOKED (239):
+--------------------------------------------------------------------------------
+                                 [unknown]
+  ",                             [unknown]
+  $(PWD_HOST                     [unknown]
+  $<                             [unknown]
+  $@                             [unknown]
+  )                              [unknown]
+  *.o                            [unknown]
+  ,                              [unknown]
+  -                              [unknown]
+  -),                            [unknown]
+  -,                             [unknown]
+  -DHAVE_CONFIG_H                [unknown]
+  -D_LIBCPP_SO_VERSION=          [unknown]
+  -D_LIBC_SO_VERSION=            [unknown]
+  -D_LIBM_SO_VERSION=            [unknown]
+  -d                             [unknown]
+  -e                             [unknown]
+  -force                         [unknown]
+  -g                             [unknown]
+  -o                             [unknown]
+  -v                             [unknown]
+  ./mkmagic                      [unknown]
+  /.libs                         [unknown]
+  /config.charset                [unknown]
+  /config/magic                  [unknown]
+  /config/magic.mime             [unknown]
+  /de/LC_MESSAGES                [unknown]
+  /es/LC_MESSAGES                [unknown]
+  /fr/LC_MESSAGES                [unknown]
+  /it/LC_MESSAGES                [unknown]
+  /ja/LC_MESSAGES                [unknown]
+  /ker//cpu_asmoff.h             [unknown]
+  /ker//kercpu.h                 [unknown]
+  /ko/LC_MESSAGES                [unknown]
+  /magdir/magic.mgc              [unknown]
+  /nb/LC_MESSAGES                [unknown]
+  /nto.link*)                    [unknown]
+  /pl/LC_MESSAGES                [unknown]
+  /pt_BR/LC_MESSAGES             [unknown]
+  /public/kernel/cpu_.h          [unknown]
+  /public/kernel/objects.h       [unknown]
+  /public/sys/neutrino.h         [unknown]
+  /subversion-1                  [unknown]
+  /subversion/bindings/javahl/native/BlameCallback.cpp [unknown]
+  /subversion/bindings/javahl/native/ChangelistCallback.cpp [unknown]
+  /subversion/bindings/javahl/native/CommitMessage.cpp [unknown]
+  /subversion/bindings/javahl/native/ConflictResolverCallback.cpp [unknown]
+  /subversion/bindings/javahl/native/CopySources.cpp [unknown]
+  /subversion/bindings/javahl/native/DiffSummaryReceiver.cpp [unknown]
+  /subversion/bindings/javahl/native/EnumMapper.cpp [unknown]
+  /subversion/bindings/javahl/native/InfoCallback.cpp [unknown]
+  /subversion/bindings/javahl/native/Inputer.cpp [unknown]
+  /subversion/bindings/javahl/native/JNIByteArray.cpp [unknown]
+  /subversion/bindings/javahl/native/JNICriticalSection.cpp [unknown]
+  /subversion/bindings/javahl/native/JNIMutex.cpp [unknown]
+  /subversion/bindings/javahl/native/JNIStackElement.cpp [unknown]
+  /subversion/bindings/javahl/native/JNIStringHolder.cpp [unknown]
+  /subversion/bindings/javahl/native/JNIThreadData.cpp [unknown]
+  /subversion/bindings/javahl/native/JNIUtil.cpp [unknown]
+  /subversion/bindings/javahl/native/ListCallback.cpp [unknown]
+  /subversion/bindings/javahl/native/LogMessageCallback.cpp [unknown]
+  /subversion/bindings/javahl/native/MessageReceiver.cpp [unknown]
+  /subversion/bindings/javahl/native/Notify.cpp [unknown]
+  /subversion/bindings/javahl/native/Notify2.cpp [unknown]
+  /subversion/bindings/javahl/native/Outputer.cpp [unknown]
+  /subversion/bindings/javahl/native/Path.cpp [unknown]
+  /subversion/bindings/javahl/native/Pool.cpp [unknown]
+  /subversion/bindings/javahl/native/ProgressListener.cpp [unknown]
+  /subversion/bindings/javahl/native/Prompter.cpp [unknown]
+  /subversion/bindings/javahl/native/ProplistCallback.cpp [unknown]
+  /subversion/bindings/javahl/native/Revision.cpp [unknown]
+  /subversion/bindings/javahl/native/RevisionRange.cpp [unknown]
+  /subversion/bindings/javahl/native/RevpropTable.cpp [unknown]
+  /subversion/bindings/javahl/native/SVNAdmin.cpp [unknown]
+  /subversion/bindings/javahl/native/SVNBase.cpp [unknown]
+  /subversion/bindings/javahl/native/SVNClient.cpp [unknown]
+  /subversion/bindings/javahl/native/StatusCallback.cpp [unknown]
+  /subversion/bindings/javahl/native/StringArray.cpp [unknown]
+  /subversion/bindings/javahl/native/Targets.cpp [unknown]
+  /subversion/bindings/javahl/native/libsvnjavahl.la.c [unknown]
+  /subversion/bindings/javahl/native/org_tigris_subversion_javahl_NativeResources.cpp [unknown]
+  /subversion/bindings/javahl/native/org_tigris_subversion_javahl_Path.cpp [unknown]
+  /subversion/bindings/javahl/native/org_tigris_subversion_javahl_SVNAdmin.cpp [unknown]
+  /subversion/bindings/javahl/native/org_tigris_subversion_javahl_SVNClient.cpp [unknown]
+  /subversion/bindings/javahl/native/org_tigris_subversion_javahl_Version.cpp [unknown]
+  /subversion/bindings/swig/perl/libsvn_swig_perl/swigutil_pl.c [unknown]
+  /subversion/bindings/swig/python/libsvn_swig_py/swigutil_py.c [unknown]
+  /subversion/bindings/swig/ruby/libsvn_swig_ruby/swigutil_rb.c [unknown]
+  /subversion/include/mod_authz_svn.h [unknown]
+  /subversion/include/mod_dav_svn.h [unknown]
+  /subversion/include/svn_auth.h [unknown]
+  /subversion/include/svn_base64.h [unknown]
+  /subversion/include/svn_client.h [unknown]
+  /subversion/include/svn_cmdline.h [unknown]
+  /subversion/include/svn_compat.h [unknown]
+  /subversion/include/svn_config.h [unknown]
+  /subversion/include/svn_ctype.h [unknown]
+  /subversion/include/svn_dav.h  [unknown]
+  /subversion/include/svn_delta.h [unknown]
+  /subversion/include/svn_diff.h [unknown]
+  /subversion/include/svn_dso.h  [unknown]
+  /subversion/include/svn_error.h [unknown]
+  /subversion/include/svn_error_codes.h [unknown]
+  /subversion/include/svn_fs.h   [unknown]
+  /subversion/include/svn_hash.h [unknown]
+  /subversion/include/svn_io.h   [unknown]
+  /subversion/include/svn_iter.h [unknown]
+  /subversion/include/svn_md5.h  [unknown]
+  /subversion/include/svn_mergeinfo.h [unknown]
+  /subversion/include/svn_nls.h  [unknown]
+  /subversion/include/svn_opt.h  [unknown]
+  /subversion/include/svn_path.h [unknown]
+  /subversion/include/svn_pools.h [unknown]
+  /subversion/include/svn_props.h [unknown]
+  /subversion/include/svn_quoprint.h [unknown]
+  /subversion/include/svn_ra.h   [unknown]
+  /subversion/include/svn_ra_svn.h [unknown]
+  /subversion/include/svn_repos.h [unknown]
+  /subversion/include/svn_sorts.h [unknown]
+  /subversion/include/svn_string.h [unknown]
+  /subversion/include/svn_subst.h [unknown]
+  /subversion/include/svn_time.h [unknown]
+  /subversion/include/svn_types.h [unknown]
+  /subversion/include/svn_user.h [unknown]
+  /subversion/include/svn_utf.h  [unknown]
+  /subversion/include/svn_version.h [unknown]
+  /subversion/include/svn_wc.h   [unknown]
+  /subversion/include/svn_xml.h  [unknown]
+  /subversion/mod_authz_svn/mod_authz_svn.c [unknown]
+  /subversion/mod_dav_svn/activity.c [unknown]
+  /subversion/mod_dav_svn/authz.c [unknown]
+  /subversion/mod_dav_svn/deadprops.c [unknown]
+  /subversion/mod_dav_svn/liveprops.c [unknown]
+  /subversion/mod_dav_svn/lock.c [unknown]
+  /subversion/mod_dav_svn/merge.c [unknown]
+  /subversion/mod_dav_svn/mirror.c [unknown]
+  /subversion/mod_dav_svn/mod_dav_svn.c [unknown]
+  /subversion/mod_dav_svn/reports/dated-rev.c [unknown]
+  /subversion/mod_dav_svn/reports/file-revs.c [unknown]
+  /subversion/mod_dav_svn/reports/get-location-segments.c [unknown]
+  /subversion/mod_dav_svn/reports/get-locations.c [unknown]
+  /subversion/mod_dav_svn/reports/get-locks.c [unknown]
+  /subversion/mod_dav_svn/reports/log.c [unknown]
+  /subversion/mod_dav_svn/reports/mergeinfo.c [unknown]
+  /subversion/mod_dav_svn/reports/replay.c [unknown]
+  /subversion/mod_dav_svn/reports/update.c [unknown]
+  /subversion/mod_dav_svn/repos.c [unknown]
+  /subversion/mod_dav_svn/util.c [unknown]
+  /subversion/mod_dav_svn/version.c [unknown]
+  /sv/LC_MESSAGES                [unknown]
+  /zh_CN/LC_MESSAGES             [unknown]
+  /zh_TW/LC_MESSAGES             [unknown]
+  <                              [unknown]
+  >                              [unknown]
+  @-,                            [unknown]
+  @MKDIR_P@                      [unknown]
+  @echo                          [unknown]
+  @for                           [unknown]
+  _)                             [unknown]
+  ___)                           [unknown]
+  beirut                         [unknown]
+  cat                            [QNX module]
+  cc                             [unknown]
+  cp                             [QNX module]
+  curses.h                       [unknown]
+  cursesapp.h                    [unknown]
+  cursesf.h                      [unknown]
+  cursesm.h                      [unknown]
+  cursesp.h                      [unknown]
+  cursesw.h                      [unknown]
+  cursslk.h                      [unknown]
+  done                           [unknown]
+  else                           [unknown]
+  eti.h                          [unknown]
+  etip.h                         [unknown]
+  fi                             [unknown]
+  form.h                         [unknown]
+  ksh                            [unknown]
+  libc.                          [unknown]
+  libc.a                         [unknown]
+  libcS.a                        [unknown]
+  ln                             [QNX module]
+  malloc_g/libmalloc.so          [unknown]
+  malloc_g/libmallocS.a          [unknown]
+  menu.h                         [unknown]
+  mkdir                          [QNX module]
+  mv                             [QNX module]
+  ntosh-gcc                      [unknown]
+  panel.h                        [unknown]
+  rm                             [QNX module]
+  sched_get_priority_adjust.o    [unknown]
+  sed                            [QNX module]
+  subversion/bindings/swig/perl/native/core.c [unknown]
+  subversion/bindings/swig/perl/native/svn_client.c [unknown]
+  subversion/bindings/swig/perl/native/svn_delta.c [unknown]
+  subversion/bindings/swig/perl/native/svn_diff.c [unknown]
+  subversion/bindings/swig/perl/native/svn_fs.c [unknown]
+  subversion/bindings/swig/perl/native/svn_ra.c [unknown]
+  subversion/bindings/swig/perl/native/svn_repos.c [unknown]
+  subversion/bindings/swig/perl/native/svn_wc.c [unknown]
+  subversion/bindings/swig/python/core.c [unknown]
+  subversion/bindings/swig/python/svn_client.c [unknown]
+  subversion/bindings/swig/python/svn_delta.c [unknown]
+  subversion/bindings/swig/python/svn_diff.c [unknown]
+  subversion/bindings/swig/python/svn_fs.c [unknown]
+  subversion/bindings/swig/python/svn_ra.c [unknown]
+  subversion/bindings/swig/python/svn_repos.c [unknown]
+  subversion/bindings/swig/python/svn_wc.c [unknown]
+  subversion/bindings/swig/ruby/core.c [unknown]
+  subversion/bindings/swig/ruby/svn_client.c [unknown]
+  subversion/bindings/swig/ruby/svn_delta.c [unknown]
+  subversion/bindings/swig/ruby/svn_diff.c [unknown]
+  subversion/bindings/swig/ruby/svn_fs.c [unknown]
+  subversion/bindings/swig/ruby/svn_ra.c [unknown]
+  subversion/bindings/swig/ruby/svn_repos.c [unknown]
+  subversion/bindings/swig/ruby/svn_wc.c [unknown]
+  subversion/libsvn_delta/.libs/libsvn_delta-1.a [unknown]
+  subversion/libsvn_delta/libsvn_delta-1.la-a [unknown]
+  subversion/libsvn_fs/.libs/libsvn_fs-1.a [unknown]
+  subversion/libsvn_fs/libsvn_fs-1.la-a [unknown]
+  subversion/libsvn_repos/.libs/libsvn_repos-1.a [unknown]
+  subversion/libsvn_repos/libsvn_repos-1.la-a [unknown]
+  subversion/libsvn_subr/.libs/libsvn_subr-1.a [unknown]
+  subversion/libsvn_subr/libsvn_subr-1.la-a [unknown]
+  subversion/mod_authz_svn/.libs/mod_authz_svn.a [unknown]
+  subversion/mod_authz_svn/mod_authz_svn.la-a [unknown]
+  subversion/mod_dav_svn/.libs/mod_dav_svn.a [unknown]
+  subversion/mod_dav_svn/mod_dav_svn.la-a [unknown]
+  subversion/mod_dav_svn/static/Makefile.in [unknown]
+  subversion/mod_dav_svn/static/config.m4 [unknown]
+  t=`date                        [unknown]
+  term.h                         [unknown]
+  timestamp.h                    [unknown]
+  true                           [QNX module]
+  u=$-nm                         [unknown]
+  unctrl.h                       [unknown]
+  usemsg                         [QNX module]
+  {                              [unknown]
+  }                              [unknown]
+
+================================================================================
